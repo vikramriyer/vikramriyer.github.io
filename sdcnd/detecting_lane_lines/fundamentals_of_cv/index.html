@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog Post Heading</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../static/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/blog-post.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/sdcnd">Self Driving Car Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8">
+
+          <!-- Title -->
+          <h1 class="mt-4">Fundamentals of Computer Vision ft. Self Driving Cars</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by
+            <a href="https://linkedin.com/in/vikramriyer">Vikram Iyer</a>
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on (DATE)</p>
+
+          <hr>
+
+          <!-- Preview Image -->
+          <img class="img-fluid rounded" src="" alt="Need to add when necessary">
+
+          <hr>
+
+          <!-- Post Content -->
+          <p>
+            <h3>Table of Contents</h3>
+            <ul class="list-unstyled mb-0">
+              <li> <a href="#">Introduction</a> </li>
+              <li><a href="#">Canny Edge Detection</a></li>
+              <li><a href="#">Hough Transform</a></li>
+              <!-- <li><a href="#"></a></li> -->
+            </ul>
+          </p>
+          <p>
+            <h4>Introduction</h4>
+            We will focus on 2 main techniques in this post
+            1. Canny Edge Detection
+            2. Hough Transform
+          </p>
+          <p>
+            <h4>Canny Edge Detection</h4>
+            As the name suggests, we use Canny detection to highlight the edges.
+            Steps
+            1. convert to gray scale
+            2. compute the gradients
+
+            Wow, sounds cool and equally scary. Let's break down each of the above steps further, but before we do that, what is an
+            edge anyway??
+            ((Yaw, daw meme, an edge is an edge which can be used to find edges in a picture with edges))
+
+            ok, so an edge is a partition on an image, where the intensity increases sharply differentiating the parts on the either sides
+            of the partition.
+            key word: differentiation. Now, we heard this some where, derivatives, gradients and this is precisely the reason why we compute
+            gradients. Do not worry if it is not intuitive, we will look at examples and code to understand better.
+
+            However, if you have understood the above function read the below paragraph.
+            We mentioned the intensity changing sharply. this is nothing but the change in the image pixels intensities.
+            this can be calculated using derivatives or gradients. higher the intensity, higher the gradient. which means it has higher
+            chances of qualifying as an edge. remember in the previous post, we talked about how image is just a function and we can
+            calculate gradients of functions right?
+
+            give an example using image and ask to find an edge, also take another image where the edge detection might fair using just the canny
+            detection algorithm and then mention that we have looked at just one technique and not all problems can be solved using just 1 technique
+
+            ((explain the parameters of the cv2.canny(gray, low_threshold, high_threshold) function))
+            gray => the gray image we generated from the original image
+            low_threshold => all the values below this will be rejected
+            high_threshold => all the values above this will be accepted
+            now, the remaining values i.e. between low_threshold and high_threshold will be considered as long as they are connected to strong edges
+            for ex: lets say our image is 0-255 ((why 255? => this should give a popping window like on udacity and explain in few words))
+            so we set the low_threshold to be 20 and high_threshold to be 200, so all the pixels with intensity values < 20 and > 200 will be
+            identified as edge pixels
+
+            gaussian smoothing, used for suppressing noise
+            ((no man meme of a black guy))
+
+            <!-- Code Snippet -->
+            <!-- <pre class="prettyprint lang-python">
+def add(param1, param2):
+  return param1 + param2
+def main():
+  # call the above function
+  result = add(1,2)
+  print("Addition is: ",result)</pre> -->
+          </p>
+
+          <p>
+            <h4>Hough Transform</h4>
+            Now, using the canny algorithm, we have been successfully been able to find the edges, but sometimes, in images like these, ((add image with no specific edges))
+            canny will fail as the gradients will be zero due to no change in the intensities. If you look carefully, we can probably understand that this is a ((shape)) and
+            if we extrapolate, as a human we do understand it. For the computer, hough transforms will do the same thing. Let's find out how?
+
+            ((Show how canny fails for the example image and how hough wins the race))
+
+            It is a conversion from Image space to Hough space. In the image space we a line is plotted as x vs y and the equation of the line is
+            y = mx + b, whereas in hough space, the x vs y can be represented as m vs b. So, the Transform basically is just a conversion from
+            image space to hough space.
+            y = mx + b => slope and intercept are m and b respectively in the original image space
+            b = (-x)m + y => slope and intercept are -x and y in the hough transformed image space
+
+            So, for each point in the image space, we have a line in the hough space.
+            ((explanation from the LastMinuteLectures video, with example))
+
+            So, hough transform helps find the shape features like straight lines, circles, etc. We have the edge pixels from above and we plan to fit line to that.
+            This is helpful because you may have 1000 edge pixels but you can fit one single line covering all of them which has only 2 parameters,
+            m and b. And intuitively we can say that it is more accurate and natural.
+
+            we actually fit a line to the points/edges. hough transform is a method to do just that.
+
+            Now, quickly let us get to know what the parameters actually are in theory. For  beginners, you can skip it for now and come back when you really feel the
+            need to know the functions better. For implementation purposes, you can ignore them for now.
+
+            row = ((sign)) = the perpendicular distance from the origin to the line = xcos(theta) + ysin(theta)
+            theta = the angle the above line makes with one of the axis
+            Now, in the equation of the line, the theta is simply the slope and the row is simply the intercept. :)
+
+            Now, for each of the points in the x,y  plane there are going to be several lines in the m, b or theta, row plane,
+            but fortunately for us, there will be a single line that will be getting max number of votes. Let's see how the voting works
+
+            For every x and y, we have series of theta, so, for every edge pixel, there will be a x,y coordinate, we put the values of the x and y
+            and get a theta, if the theta has already been voted, vote += 1, finally in the theta, row space, check which theta gets the max no of votes and decide that to be the line
+
+            For people who have understood this far, read below to see why there is a certain point that accumulates most number of votes? Hint: Sinusidal curve
+            For an x and y pair, we see that the voting pattern is Sinusidal. When we change the x and y, it originates from a different place, however, is sinusidal as well.
+            This way there is a certain point where the all the sinusidal curves tend to meet, this is the point in the theta, row plane which transforms back to a line in the x,y space
+            
+
+
+          </p>
+
+          <p>
+            <h4>Concluding lines</h4>
+            How is the pipeline of what we discussed?
+            image => gray image => canny filter => get edge pixels => hough transform => get lines instead of numerous edge pixels/points
+          </p>
+
+          <hr>
+
+          <!-- Pagination -->
+          <ul class="pagination justify-content-center mb-4">
+            <li class="page-item disabled">
+              <a class="page-link" href="#">&larr; Back</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next: Fundamentals of CV &rarr;</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+
+          <!-- Categories Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Categories</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Self Driving Car</a>
+                    </li>
+                    <li>
+                      <a href="#">Deep Learning</a>
+                    </li>
+                    <li>
+                      <a href="#">Computer Vision</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Artificial Intelligence</a>
+                    </li>
+                    <li>
+                      <a href="#">Autonomous Systems</a>
+                    </li>
+                    <li>
+                      <a href="#">Machine Learning</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Side Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Flash Card to remember this post</h5>
+            <div class="card-body">
+              <img src="" alt="Add an image that explains the entire post">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; vikramriyer.github.io 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../static/js/vendor/jquery.min.js"></script>
+    <script src="../../static/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="../../static/js/vendor/run_prettify.js"></script>
+
+  </body>
+
+</html>
