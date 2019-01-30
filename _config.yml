@@ -24,7 +24,7 @@ url                      : "https://vikramriyer.github.io" # the base hostname &
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/vikram.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -64,8 +64,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -97,6 +97,9 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - https://linkedin.com/in/vikramriyer
+    - https://twitter.com/vikkyaa
+    - https://www.facebook.com/vikkyaa
 
 # Analytics
 analytics:
@@ -108,7 +111,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Vikram Iyer"
+  name             : #"Vikram Iyer"
   avatar           : "/assets/images/vikram.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Engineer who understands product and business and can combine Machine Learning expertise to solve problems"
   location         : "Hyderabad,India"
@@ -124,7 +127,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/vikramriyer"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/vikramriyer"
 
 # Site Footer
