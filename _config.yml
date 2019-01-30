@@ -112,9 +112,6 @@ author:
   location         : "Hyderabad,India"
   email            : "vikram.iyer09@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:vikram.iyer09@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://vikramriyer.github.io"
