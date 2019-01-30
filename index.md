@@ -8,6 +8,5 @@ author_profile: true
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
-    <li>This is a post</li>
   {% endfor %}
 </ul>
