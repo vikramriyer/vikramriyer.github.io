@@ -3,7 +3,6 @@ layout: home
 author_profile: true
 ---
 
-<h1>Home page</h1>
 <ul>
   {% for post in site.posts %}
     <li>
