@@ -124,6 +124,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/vikramriyer"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://linkedin.com/in/vikramriyer"
 
 # Site Footer
 footer:
