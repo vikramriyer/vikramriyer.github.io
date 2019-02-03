@@ -47,3 +47,5 @@ Lets see a few things about the class above
 #### Backward Propogation
 
 {% gist ab6a1ea5ec4afcda13e9eeeeda6013cc %}
+
+## References
