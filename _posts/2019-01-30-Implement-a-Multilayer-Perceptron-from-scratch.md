@@ -46,4 +46,10 @@ Lets see a few things about the class above
 
 {% gist ab6a1ea5ec4afcda13e9eeeeda6013cc %}
 
+### Part 3: Math
+... in progress
+
+### Part 4: Intuition
+--- in progress
+
 ## References

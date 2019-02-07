@@ -1,6 +1,6 @@
 ---
 title: Logistic Regression the easy way
-date: 2019-01-04 19:30:50
+date: 2019-02-20 19:30:50
 categories: machine_learning
 permalink: /:categories/logistic_regression
 ---
