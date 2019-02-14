@@ -8,3 +8,5 @@ Orthogonality
 Projections
 Dot Products
 Unit Vectors
+Vector Similarities
+How is Linear Combination (w1x1 + w2x2) formed?
