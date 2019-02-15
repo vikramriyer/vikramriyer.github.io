@@ -6,6 +6,7 @@ permalink: /about/
 - As a <strong>Software Developer</strong>, I have understanding of the <strong>BigData, Microservices</strong> architectures and have worked on designing and developing products for productions systems at the organisations I have worked with. I develop mostly using <strong>Python</strong> as my main language of preference, however, have used <strong>Ruby, Java, Javascript</strong> whenever found <strong>optimal and necessary</strong>. My main functional area has been as a <strong>Infrastructure Engineer</strong>.
 - As a <strong>Data Science Mentor</strong> (see [testimonials](#student-testimonials) below), I teach students various topics relevant to <strong>Data Analysis, Machine Learning, Data Wrangling, Data Visualisation,</strong> etc.
 - I am also well versed in <strong>Deep Learning</strong> and have worked majorly on [projects](/projects) related to <strong>Computer Vision</strong>.
+- Finally, I hate long blog posts or videos, so I try to cut them down into short ones and write about them. It's actually really difficult to write long blogs, because I have to validate them later
 
 ### What is my Goal? Where am I heading?
 To be part of a startup to which I can add a lot of value and build a product(s) of huge commercial value. With a wide variety of exposure and expertise, I am capable of wearing multiple hats and excelling at each one of them.
