@@ -42,6 +42,15 @@ Lets see a few things about the class above
 
 {% gist ac6639c6236748338f19baca6098d8eb %}
 
+There feed forward pass has 2 calculations:
+- Finding the value of the hidden layers
+- Finding the value of the outputs. This will depend on the above calculated weights of the hidden layer. We will see why below.
+
+Note: h and output, etc are all vectors and below operations would be vectorized form. It is highly inefficient to write loops to perform these operations.
+
+h = w * X OR h = np.dot(x, W)
+
+
 #### Backward Propogation
 
 {% gist ab6a1ea5ec4afcda13e9eeeeda6013cc %}
