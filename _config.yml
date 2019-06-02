@@ -101,7 +101,6 @@ social:
     - https://twitter.com/vikramriyer
     - https://www.facebook.com/vikramriyer
 
-
 # Analytics
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
