@@ -23,8 +23,8 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-sitemap", "~> 1.2.0"
   gem "jekyll-gist", "~> 1.5.0"
-  gem "jemoji", "~> 0.10.1"
-  gem "jekyll-include-cache", "~> 0.1.0"
+  gem "jemoji", "~> 0.11.0"
+  gem "jekyll-include-cache", "~> 0.2.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
