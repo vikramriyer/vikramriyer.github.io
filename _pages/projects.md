@@ -36,5 +36,5 @@ _By using the data obtained from open street map, we will first clean it for som
 _E-Commerce Website A/B testing: Recommend which of two landing pages to keep based on A/B testing to determine user engagement._
 
 # Personal Projects _(for daily productivity)_
-[Personal GitHub Dashboard](https://github.com/vikramriyer/github-dash) (in progress..)<br>
-_This is a personal project that I intend to share with the dev (software devs, data scientists) community so that they can have a single dashboard to check the repositories and users they want to track. I do not find a lot of time for this but intend to finish it by July, 2019 Anyone who wishes to collaborate can absolutely reach me out at twitter @vikramriyer._
+[Dev Dashboard](https://github.com/vikramriyer/github-dash) (in progress..)<br>
+_This is a personal project that I intend to share with the dev (software devs, data scientists, etc) community so that they can have a single dashboard to check the repositories and users they want to track from multiple sources (Github, Medium, Twitter, LinkedIn). It can act as a single dashboard where a user can get information about all the devs/influencers on one page. Anyone who wishes to collaborate can absolutely reach me out at twitter [@vikramriyer](https://twitter.com/vikramriyer)._
