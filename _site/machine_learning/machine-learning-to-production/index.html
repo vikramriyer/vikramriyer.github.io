@@ -1,0 +1,607 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.15.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>What does deploying to production mean? - Vikram Iyer</title>
+<meta name="description" content="Introduction and What I do, Where I do what I do.I am a Machine Learning Engineer at Acceldata; the tasks however actually comprises the trio of “Software Engineer, Machine Learning and Data Engineering”; though not at a Google scale. The tagline for Acceldata is ‘Data Lake Operations Optimised’ and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc. Out of interest and to make some extra bucks, I also mentor students at Udacity for Data Engineering and Data Analyst Nanodegrees.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Vikram Iyer">
+<meta property="og:title" content="What does deploying to production mean?">
+<meta property="og:url" content="http://localhost:10001/machine_learning/machine-learning-to-production/">
+
+
+  <meta property="og:description" content="Introduction and What I do, Where I do what I do.I am a Machine Learning Engineer at Acceldata; the tasks however actually comprises the trio of “Software Engineer, Machine Learning and Data Engineering”; though not at a Google scale. The tagline for Acceldata is ‘Data Lake Operations Optimised’ and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc. Out of interest and to make some extra bucks, I also mentor students at Udacity for Data Engineering and Data Analyst Nanodegrees.">
+
+
+
+
+
+  <meta name="twitter:site" content="@vikramriyer">
+  <meta name="twitter:title" content="What does deploying to production mean?">
+  <meta name="twitter:description" content="Introduction and What I do, Where I do what I do.I am a Machine Learning Engineer at Acceldata; the tasks however actually comprises the trio of “Software Engineer, Machine Learning and Data Engineering”; though not at a Google scale. The tagline for Acceldata is ‘Data Lake Operations Optimised’ and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc. Out of interest and to make some extra bucks, I also mentor students at Udacity for Data Engineering and Data Analyst Nanodegrees.">
+  <meta name="twitter:url" content="http://localhost:10001/machine_learning/machine-learning-to-production/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-07-15T01:00:50+05:30">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:10001/machine_learning/machine-learning-to-production/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Vikram Iyer",
+      "url": "http://localhost:10001",
+      "sameAs": ["https://linkedin.com/in/vikramriyer","https://twitter.com/vikramriyer","https://www.facebook.com/vikramriyer"]
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Vikram Iyer Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">Vikram Iyer</a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/vikram_acceldata_photo.jpg" alt="" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name"></h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Software Engineer who understands tech products and businesses and can combine Machine Learning expertise to solve problems
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Bangalore, India</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://vikramriyer.github.io" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/vikramriyer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://github.com/vikramriyer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://linkedin.com/in/vikramriyer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:vikram.iyer09@gmail.com">
+            <meta itemprop="email" content="vikram.iyer09@gmail.com">
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="What does deploying to production mean?">
+    <meta itemprop="description" content="Introduction and What I do, Where I do what I do.I am a Machine Learning Engineer at Acceldata; the tasks however actually comprises the trio of “Software Engineer, Machine Learning and Data Engineering”; though not at a Google scale. The tagline for Acceldata is ‘Data Lake Operations Optimised’ and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc. Out of interest and to make some extra bucks, I also mentor students at Udacity for Data Engineering and Data Analyst Nanodegrees.">
+    <meta itemprop="datePublished" content="July 15, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">What does deploying to production mean?
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  8 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="introduction-and-what-i-do-where-i-do-what-i-do">Introduction and What I do, Where I do what I do.</h2>
+<p>I am a Machine Learning Engineer at <a href="https://acceldata.io/">Acceldata</a>; the tasks however actually comprises the trio of “Software Engineer, Machine Learning and Data Engineering”; though not at a Google scale. The <em>tagline</em> for Acceldata is <em>‘Data Lake Operations Optimised’</em> and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc. Out of interest and to make some extra bucks, I also mentor students at Udacity for Data Engineering and Data Analyst Nanodegrees.</p>
+
+<h2 id="problem-statement">Problem Statement</h2>
+<p>As I mentioned above, I come from a Software Development background, and I can visualise all the nightmares that I or my colleagues have been through trying to productionize their code/idea. People having working in companies having periodic on-call activities might understand this even better. So, what does it actually mean when people say “Productionizing Machine Learning Projects”? <img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> <img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> <img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> <img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"></p>
+
+<p>If one closely watches the trend of how courses that teach Machine Learning are designed, it is easy to see one similar pattern across all of the courses. Developing everything using the <strong>Jupyter Notebooks</strong>. Though it is the best way to learn Data Science and Visualize the results, productinizing code is a different beast altogether. So, there is a clear gap when it comes to models in <em>Notebooks</em> vs models in <em>Production</em>. In this post, I would like to address this GAP and show how we at <a href="https://acceldata.io/">Acceldata</a> productionize machine learning projects.</p>
+
+<p>Writing a Tech Spec documentation almost always helps. I did this as part of the engineering team and am very much used to it. Here are a few resources which talk about writing good tech specs. The content would be slightly different in case of a machine learning project, but the need for the tech spec remains the same. Getting an idea of the project, the features and the scope.</p>
+
+<p>So, let’s focus on what the the problem we have at hand and learn more about how we tackled it. Below is the explanation of how I take ML Models to production.</p>
+
+<h2 id="requirements">Requirements</h2>
+<blockquote>
+  <p>To forecast the resource usage for different queues in <a href="https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html">YARN</a>.</p>
+</blockquote>
+
+<p>To give you more information about this, the queues in YARN can be imagined to be similar to <a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)">queues</a> in Data Structures and used for the task of <a href="https://hortonworks.com/blog/yarn-capacity-scheduler/">scheduling</a> of jobs, tasks. So, these queues are given a certain capacity which is the number of tasks, jobs that can be stored in it. The queue can be partitioned into multiple sub-queues, but for brevity I will consider a single queue. At any point in time, the queue has a property which is its <strong>‘Used Capacity’</strong>. Our task is to forecast how much capacity of the queue will be used at some point in the future.</p>
+
+<blockquote>
+  <p>Using the above forecast, business users will be able to take actions as to upscale or downscale their queues so as to meet the needs at times in the future.</p>
+</blockquote>
+
+<h2 id="simple-high-level-design">Simple High Level Design</h2>
+<p><img src="/assets/images/machine_learning/hld_ml_to_prod.png" alt=""></p>
+
+<p>Let’s start going through each of the components in detail.</p>
+
+<h3 id="mongodb">MongoDB</h3>
+<p>We use MongoDB to store log information and also resource usage values for each of the queues in YARN. Now, to analyze and write predictive algorithms about this data, it is imperative that we import this data and then process it.</p>
+
+<h3 id="influxdb">InfluxDB</h3>
+<p>Most of the data that we collect at Acceldata is time-series based and it only makes sense to store it in a time series database. The debate about why InfluxDB and not any other TSDB is best left for another post. So finally, I too choose to pump in time-series based predictions to InfluxDB.</p>
+
+<h3 id="ml-pipeline">ML Pipeline</h3>
+<ul>
+  <li>Clean and Preprocess the data and get it ready to push to a time-series model.</li>
+  <li>Train the model based on multiple hyper-params and params and choose the best model</li>
+</ul>
+
+<h3 id="dashboard">Dashboard</h3>
+<p>Though this component is developed by the UI team, it only makes sense to add it here to show how the end result looks like. A Data Science project is incomplete without visualisation. The predicted data that is pumped into InfluxDB is rendered to the UI and below is how the predictions look like. The below image shows 2 queues i.e. DEFAULT and LLAP which are sub-queues under root queue. The first image is a merge of the actual queue usage and predicted queue usage for the current day. The second image is the predictions for the next day.</p>
+
+<p><img src="/assets/images/machine_learning/capacity_prediction_1.png" alt="">
+<img src="/assets/images/machine_learning/capacity_prediction_2.png" alt=""></p>
+
+<h2 id="looking-at-the-machine-learning-pipeline-in-detail">Looking at the Machine Learning Pipeline in detail</h2>
+
+<h3 id="software-engineering">Software Engineering</h3>
+<ul>
+  <li>Designing Database Access Layers (importing and exporting data into various databases by abstracting business logic)</li>
+  <li>Abstracted Object Oriented Design for exposing Models to the business users (in this case the UI Dashboard)</li>
+  <li>Designing Data Model (for choosing the hyper-params and other model specific params to suit business needs)</li>
+</ul>
+
+<h3 id="data-engineering">Data Engineering</h3>
+<p>The important point to note is that, using fancy tools to accomplish a task is not software or data engineering. Making correct (close to correct <img class="emoji" title=":bowtie:" alt=":bowtie:" src="https://github.githubassets.com/images/icons/emoji/bowtie.png" height="20" width="20">) choices to ease/fasten production usage keeping scaling in mind are signs of a good engineer.</p>
+<ul>
+  <li>As the current pipeline stands, getting data from multiple sources (MongoDB and InfluxDB) is easy for me with a few configurations so that the Machine Learning pipeline can kick in sooner.</li>
+  <li>In most cases where devs are dealing with multiple data sources and various business users, the data engineering pipelines get complicated. Data storage and retrieval becomes a huge headache and choices of SQL vs NOSQL dbs, Row vs Columnar dbs, etc kick in design discussions about such cases are topics for another post.</li>
+</ul>
+
+<h3 id="machine-learning">Machine Learning</h3>
+<ul>
+  <li>
+    <p>Import Data
+  Once the data engineering (simply data ingestion) module is ready, data is imported, merged and mutated into a DataFrame which is easier to work with Data Science workflows. The ML module now has the queue data in DataFrames format.</p>
+  </li>
+  <li>Clean Data and Feature Engineering
+  As you might have heard more than a thousand times and almost every one discusses this as the most important aspect of Data Science, the current workflow also uses this aspect very well. Some of the techniques used are:
+    <ul>
+      <li>Cleaning Unwanted Columns
+        <ul>
+          <li>highly correlated data (noisy data)</li>
+          <li>extra columns that may be passed by the data source</li>
+        </ul>
+      </li>
+      <li>Developing Useful Time Features
+        <ul>
+          <li>day of the week/hour/month</li>
+          <li>week of the month/year</li>
+          <li>month/quarter of the year</li>
+          <li>holiday</li>
+          <li>whether weekend or not</li>
+          <li>proximity to weekend</li>
+        </ul>
+      </li>
+      <li>Scaling Data <br>
+I have seen this data preparation technique improve results almost all the times. It is just easy for the model to comprehend data that fit in the same scale.</li>
+      <li>Sample Data <br>
+The data captured from Hadoop and other components and system metrics is too frequent (seconds) to be used directly for modelling and hence sampling into higher time measures is very important using aggregations like mean, median, min, max depending on the use-case. This way a lot of noise is excluded from entering the model.</li>
+    </ul>
+  </li>
+  <li>Fit Data and Forecast
+    <ul>
+      <li>Now that we have the data ready to be run model on, we choose the train and test data and use multiple algorithms to see which one of the Algorithms, hyper-params and params give best results.</li>
+      <li>The best model is chosen and forecasts are then generated. Our models are based on Facebook’s <a href="https://facebook.github.io/prophet/">Prophet</a>,
+<a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">LSTM</a> and <a href="https://en.wikipedia.org/wiki/Vector_autoregression">VAR</a>.</li>
+    </ul>
+  </li>
+  <li>Prepare Data for writing results to DB
+Data preparation is not only necessary to train the model. When we often write back data to some database, some design choices have to be made so that the end/business users can make appropriate use of the data. Tasks can be something like:
+    <ul>
+      <li>adding time as a field or even making it a primary key</li>
+      <li>writing data keeping in mind the indexes for the tables/documents/measurements</li>
+      <li>adding extra incremental fields in very rare cases that might be required by the charting libraries to render and display on the</li>
+    </ul>
+
+    <p>This task is (mostly) closely related to Data Engineering but the current use-case is simple and hence to not complicate the task, I avoided separating from the ML module. But, it is absolutely recommended to separate it from the ML logic. There is a high probability that I might have actually implemented this by the time you stumble upon this post (<img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20">).</p>
+  </li>
+</ul>
+
+<h2 id="evaluation-of-the-models">Evaluation of the Models</h2>
+<p>Evaluation or Error Calculation is the measure that decides which model works better and should be chosen for forecasts on production data. Since dealing with absolute values, we have used <a href="https://en.wikipedia.org/wiki/Mean_absolute_percentage_error">MAPE</a> as the error measure.</p>
+
+<h2 id="data-model">Data Model</h2>
+<p>This is where software engineering again comes into picture. The business users have better idea about the sampling frequency and prediction periods. So, it makes sense to accept these kind of params from the users and prepare our data or run our models based on them. So, there is a simple web app that routes this data from user to our forecasting app. Below is a sample of the request payload.</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">  
+   </span><span class="s2">"job_name"</span><span class="p">:</span><span class="s2">"Resource Forecasting"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"job_description"</span><span class="p">:</span><span class="s2">"Get predictions for next 'k' days/hours/months"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"user_name"</span><span class="p">:</span><span class="s2">"Bob"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"project"</span><span class="p">:</span><span class="s2">"capacity forecasting"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"owner"</span><span class="p">:</span><span class="s2">"ui-service"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"data"</span><span class="p">:{</span><span class="w">  
+      </span><span class="s2">"source"</span><span class="p">:{</span><span class="w">  
+         </span><span class="s2">"name"</span><span class="p">:</span><span class="s2">"mongodb"</span><span class="p">,</span><span class="w">
+         </span><span class="s2">"document"</span><span class="p">:</span><span class="s2">"document_name"</span><span class="p">,</span><span class="w">
+         </span><span class="s2">"collection"</span><span class="p">:</span><span class="s2">"collection_name"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="s2">"destination"</span><span class="p">:{</span><span class="w">  
+         </span><span class="s2">"name"</span><span class="p">:</span><span class="s2">"influxdb"</span><span class="p">,</span><span class="w">
+         </span><span class="s2">"database"</span><span class="p">:</span><span class="s2">"db_name"</span><span class="p">,</span><span class="w">
+         </span><span class="s2">"measurement"</span><span class="p">:</span><span class="s2">"measurement_name"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+   </span><span class="p">},</span><span class="w">
+   </span><span class="s2">"aggregation_time_period"</span><span class="p">:</span><span class="s2">"1h"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"data_ingestion_time_period"</span><span class="p">:</span><span class="s2">"5d"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"model"</span><span class="p">:</span><span class="s2">"prophet"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"future_prediction_time_period"</span><span class="p">:</span><span class="s2">"3d"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>This can be persisted in a db to keep an account of the usage but again for brevity I will skip discussing about it.</p>
+
+<h2 id="how-to-get-going-when-you-are-on-your-own">How to get going when you are on your own?</h2>
+
+<p>This section has got nothing to do with productionizing ML pipelines. Here are some tips that can help you to get work done in case there is less help available.</p>
+
+<ol>
+  <li>The Rubber Duck Methodology <br>
+  Read more about the <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">technique</a> here. However, in short, it just means to explain the problem and the solution to yourself and convince that this is correct. Remember that along with just completing a task, you are learning something that might come in handy in the future. So, try to grill yourself as much as you can to make sure what you are doing it right. However, do not fall into the trap of perfecting your work. There is a fine line between the two.</li>
+  <li>Read <br>
+  There is clearly a lot of information available about how to productionize ML models. Read through engineering/data science blogs from good companies that do not shy away from sharing their experiences online. Read and reread to grasp the stuff and try to implement what suits your needs.</li>
+  <li>Write <br>
+  There is a huge community out there on Twitter, LinkedIn, Medium where you can share your work and get suggestion/tips. However, do talk to your seniors to know if it is okay to share the content publicly before doing it. I have a green flag from my CEO to give you a perspective.</li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#machine-learning" class="page__taxonomy-item" rel="tag">machine_learning</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-07-15T01:00:50+05:30">July 15, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=vikramriyer&amp;text=What+does+deploying+to+production+mean%3F%20http%3A%2F%2Flocalhost%3A10001%2Fmachine_learning%2Fmachine-learning-to-production%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A10001%2Fmachine_learning%2Fmachine-learning-to-production%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A10001%2Fmachine_learning%2Fmachine-learning-to-production%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A10001%2Fmachine_learning%2Fmachine-learning-to-production%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+            
+      </div>
+    </div>
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://linkedin.com/in/vikramriyer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://github.com/vikramriyer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/vikramriyer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+    
+
+    <!--li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li-->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2019 Vikram Iyer. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js" integrity="sha384-z9ZOvGHHo21RqN5De4rfJMoAxYpaVoiYhuJXPyVmSs8yn20IE3PmBM534CffwSJI" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+  </body>
+</html>
