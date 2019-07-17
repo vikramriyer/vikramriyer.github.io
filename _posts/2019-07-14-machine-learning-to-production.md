@@ -39,7 +39,6 @@ Most of the data that we collect at Acceldata is time-series based and it only m
 ### ML Pipeline
 - Clean and Preprocess the data and get it ready to push to a time-series model.
 - Train the model based on multiple hyper-params and params and choose the best model
-  -
 
 ### Dashboard
 Though this component is developed by the UI team, it only makes sense to add it here to show how the end result looks like. A Data Science project is incomplete without visualisation. The predicted data that is pumped into InfluxDB is rendered to the UI and below is how the predictions look like. The below image shows 2 queues i.e. DEFAULT and LLAP which are sub-queues under root queue. The first image is a merge of the actual queue usage and predicted queue usage for the current day. The second image is the predictions for the next day.
