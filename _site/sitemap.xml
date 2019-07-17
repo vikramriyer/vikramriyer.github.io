@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:10001/machine-learning-to-production/</loc>
+<loc>https://vikramriyer.github.io/machine_learning/ml_to_prod</loc>
 <lastmod>2019-07-15T01:00:50+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:10001/about/</loc>
+<loc>https://vikramriyer.github.io/about/</loc>
 </url>
 <url>
-<loc>http://localhost:10001/</loc>
+<loc>https://vikramriyer.github.io/</loc>
 </url>
 <url>
-<loc>http://localhost:10001/</loc>
+<loc>https://vikramriyer.github.io/</loc>
 </url>
 <url>
-<loc>http://localhost:10001/projects/</loc>
+<loc>https://vikramriyer.github.io/projects/</loc>
 </url>
 </urlset>

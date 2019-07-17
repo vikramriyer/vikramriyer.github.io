@@ -1,1 +1,1 @@
-Sitemap: http://localhost:10001/sitemap.xml
+Sitemap: https://vikramriyer.github.io/sitemap.xml
