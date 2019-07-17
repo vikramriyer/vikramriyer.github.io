@@ -3,6 +3,7 @@ title: What does deploying to production mean?
 date: 2019-07-14 19:30:50
 categories: machine_learning
 permalink: /:categories/ml_to_prod
+layout: single
 tags: ml
 ---
 
