@@ -1,7 +1,6 @@
 ---
 title: What does deploying to production mean?
 date: 2019-07-14 19:30:50
-categories: machine_learning
 ---
 
 ## Introduction and What I do, Where I do what I do.
