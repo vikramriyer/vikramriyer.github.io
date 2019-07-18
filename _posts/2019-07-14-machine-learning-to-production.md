@@ -4,56 +4,84 @@ date: 2019-07-14 19:30:50
 ---
 
 ## Introduction and What I do, Where I do what I do.
-I am a Machine Learning Engineer at [Acceldata](https://acceldata.io/); the tasks however actually comprises the trio of "Software Engineer, Machine Learning and Data Engineering"; though not at a Google scale. The *tagline* for Acceldata is *'Data Lake Operations Optimised'* and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc. Out of interest and to make some extra bucks, I also mentor students at Udacity for Data Engineering and Data Analyst Nanodegrees.
+I am a Machine Learning Engineer at [Acceldata](https://acceldata.io/); the tasks however actually comprises the trio of "Software Engineer, Machine Learning and Data Engineering". The *tagline* for Acceldata is *'Data Lake Operations Optimised'* and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc.
 
-## Problem Statement
-As I mentioned above, I come from a Software Development background, and I can visualise all the nightmares that I or my colleagues have been through trying to productionize their code/idea. People having working in companies having periodic on-call activities might understand this even better. So, what does it actually mean when people say "Productionizing Machine Learning Projects"? :rocket: :rocket: :rocket: :rocket:
+I come from a Software Development background, and I can visualise all the nightmares that I or my colleagues have been through trying to productionize their code. People having worked in companies having periodic on-call activities might understand this even better.
 
 If one closely watches the trend of how courses that teach Machine Learning are designed, it is easy to see one similar pattern across all of the courses. Developing everything using the __Jupyter Notebooks__. Though it is the best way to learn Data Science and Visualize the results, productinizing code is a different beast altogether. So, there is a clear gap when it comes to models in _Notebooks_ vs models in _Production_. In this post, I would like to address this GAP and show how we at [Acceldata](https://acceldata.io/) productionize machine learning projects.
 
-Writing a Tech Spec documentation almost always helps. I did this as part of the engineering team and am very much used to it. Here are a few resources which talk about writing good tech specs. The content would be slightly different in case of a machine learning project, but the need for the tech spec remains the same. Getting an idea of the project, the features and the scope.
+__Note__: A forecasting problem might not be a Machine Learning problem, but since we are learning the representation of several independent variables to one dependent variable and predicting the dependent variable, I will be brave and call it a Machine Learning (like) model.
 
-So, let's focus on what the the problem we have at hand and learn more about how we tackled it. Below is the explanation of how I take ML Models to production.
+## Problem Statement
 
-## Requirements
 > To forecast the resource usage for different queues in [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
 
-To give you more information about this, the queues in YARN can be imagined to be similar to [queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) in Data Structures and used for the task of [scheduling](https://hortonworks.com/blog/yarn-capacity-scheduler/) of jobs, tasks. So, these queues are given a certain capacity which is the number of tasks, jobs that can be stored in it. The queue can be partitioned into multiple sub-queues, but for brevity I will consider a single queue. At any point in time, the queue has a property which is its __'Used Capacity'__. Our task is to forecast how much capacity of the queue will be used at some point in the future.
+To give you more information about this, the queues in YARN can be imagined to be similar to [queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) in Data Structures and used for the task of scheduling ([read more here](https://hortonworks.com/blog/yarn-capacity-scheduler/)) of jobs, tasks. So, these queues are given a certain capacity which can be imagined to be the number of tasks, jobs that can be stored in it. The queue can be partitioned into multiple sub-queues. The queue has a property which is its __'Used Capacity'__ at a point in time. Our task is to forecast how much capacity of the queue will be used at some point in the __future__.
 
-> Using the above forecast, business users will be able to take actions as to upscale or downscale their queues so as to meet the needs at times in the future.
+> Using the above forecast, business users will be able to make informed decisions as to whether upscale or downscale their queues.
 
-## Simple High Level Design
+Let's talk a bit about the components that we will discuss throughout the post and how they are interlinked and complete the puzzle i.e. ML to production.
+
+## Simple High Level (System) Design
 ![](/assets/images/machine_learning/hld_ml_to_prod.png)
 
-Let's start going through each of the components in detail.
+Let's start going through each of the components i.e. MongoDB, InfluxDB and then the ML pipeline in that order.
 
 ### MongoDB
-We use MongoDB to store log information and also resource usage values for each of the queues in YARN. Now, to analyze and write predictive algorithms about this data, it is imperative that we import this data and then process it.
+We use MongoDB to store log information of all the components that we support ([check here](https://trial.acceldata.dev/#/dashboard)) and also resource usage values for each of the queues in YARN. Now, to analyse and write predictive algorithms about this data, it is imperative that we import this data and then process it.
+
+Below is a snapshot (skipped features and samples) of how the data looks like.
+
+|_id|absMaxCapacity|numActiveApps|numPendingApps|vcoresTotal|
+|---|-------------------|--------------------|---------------------|-----------|
+|1|100                |75                  |75                   |1071       |
+|2|15.34              |1                   |1                    |164        |
+|3|28.57              |31                  |31                   |306        |
+|4|38.09              |41                  |41                   |408        |
+|5|18                 |2                   |2                    |193        |
+
+Each of the rows above describe the status of a __queue__ at a particular point in time.
 
 ### InfluxDB
-Most of the data that we collect at Acceldata is time-series based and it only makes sense to store it in a time series database. The debate about why InfluxDB and not any other TSDB is best left for another post. So finally, I too choose to pump in time-series based predictions to InfluxDB.
+Now Most of the data that we collect at Acceldata is time-series based and it only makes sense to store it in a time series database. Since the predictions
+are time-series based i.e. the forecasts are timestamps in the future displaying the queue usage, all the predictions are written to InfluxDB. We acknowledge the fact that no one can be perfect. So along with the predictions, we make sure to predict the upper and lower bounds of the queue usage so as to give the business user a perspective of how much variance one can expect.
 
 ### ML Pipeline
-- Clean and Preprocess the data and get it ready to push to a time-series model.
-- Train the model based on multiple hyper-params and params and choose the best model
+- Clean and Preprocess the data and get it ready to pass to a time-series model.
+- Train the model and based on error criteria ([discussed below](#evaluation-of-the-models)), choose the best model
+- Forecast predictions, upper bound as well as lower bounds
+- Prepare data to write into InfluxDB
+A detailed explanation for each of the Machine Learning Steps involved is discussed [later](#looking-at-the-machine-learning-pipeline-in-detail) in this post.
 
 ### Dashboard
-Though this component is developed by the UI team, it only makes sense to add it here to show how the end result looks like. A Data Science project is incomplete without visualisation. The predicted data that is pumped into InfluxDB is rendered to the UI and below is how the predictions look like. The below image shows 2 queues i.e. DEFAULT and LLAP which are sub-queues under root queue. The first image is a merge of the actual queue usage and predicted queue usage for the current day. The second image is the predictions for the next day.
+Finally, time to see the results! A Data Science project is incomplete without visualisation. The predicted data that is pumped into InfluxDB is rendered to the UI and below is how the predictions look like.
+
+The below images show 2 queues i.e. DEFAULT and LLAP which are sub-queues under root queue. The first image merges the __actual queue usage__ and __predicted queue usage__ for the current day. The second image is the predictions for the next day. The number of days to predict in the future is a configurable param that is present in the [data model section](#data-model).
 
 ![](/assets/images/machine_learning/capacity_prediction_1.png)
 ![](/assets/images/machine_learning/capacity_prediction_2.png)
 
 ## Looking at the Machine Learning Pipeline in detail
 
+This is the most important section and actually explains what the __title__ promised. Let's discuss what all are the parts when stitched together help us get a Machine Learning model to production.
+
 ### Software Engineering
-  - Designing Database Access Layers (importing and exporting data into various databases by abstracting business logic)
-  - Abstracted Object Oriented Design for exposing Models to the business users (in this case the UI Dashboard)
-  - Designing Data Model (for choosing the hyper-params and other model specific params to suit business needs)
+
+Software Engineering is an art of abstracting tech stuff so that even users who do not understand code can use it to get the results they desire. Below are some of the tasks that fall under the software engineering category and important to complete the pipeline.
+
+  - Designing Database Access Layers also called DAO <br>
+  Since we are dealing with multiple sources of data, we cannot expect the business user to specify how to query the sources for data. We expect them to specify where the data is located. Writing code to extract data from different sources lies in the hands of the Software Engineers that design the these systems
+  - Web App layer to get details about the params for the Data Ingestion sources <br>
+  The business users request data through this layer that stands as an interface between the Machine Learning models and them. For this to happen, a usual practice is to design an API or Data Model that can be exposed via a REST/web layer discussed in the above point
 
 ### Data Engineering
-The important point to note is that, using fancy tools to accomplish a task is not software or data engineering. Making correct (close to correct :bowtie:) choices to ease/fasten production usage keeping scaling in mind are signs of a good engineer.
-  - As the current pipeline stands, getting data from multiple sources (MongoDB and InfluxDB) is easy for me with a few configurations so that the Machine Learning pipeline can kick in sooner.
-  - In most cases where devs are dealing with multiple data sources and various business users, the data engineering pipelines get complicated. Data storage and retrieval becomes a huge headache and choices of SQL vs NOSQL dbs, Row vs Columnar dbs, etc kick in design discussions about such cases are topics for another post.
+
+There are blog posts that discuss how Data Engineers extracted data from different data sources and warehouses, and merged them and pushed to a SQL or NOSQL db or even CSV files so that the Data Scientists would be able to work seamlessly with the data. I will simplify it and discuss how I performed data engineering to get data into the Machine Learning models.
+
+  - In most cases where devs are dealing with multiple data sources and various business users, the data engineering pipelines get complicated. Data storage and retrieval becomes a huge headache and choices of SQL vs NOSQL vs warehouses, Batch vs Stream processing, etc kick in design discussions about such cases are topics for another post.
+  - For us fortunately (as of now), the data sources are InfluxDB and MongoDB only. Using the abstracted tools from the Software Engineering [section](#software-engineering), we can get this data in the format that is desired using various db clients. Most of the code for this is written in Python and most of API clients have a provision to get this data in the [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) format that is best suited for Machine Learning models.
+
+Now that we have our data extracted and ready for Machine Learning model, let's head into seeing what are the various parts in Machine Learning.
 
 ### Machine Learning
   - Import Data
@@ -71,7 +99,7 @@ The important point to note is that, using fancy tools to accomplish a task is n
       - holiday
       - whether weekend or not
       - proximity to weekend
-    - Scaling Data <br>
+    - Normalising/Scaling Data <br>
       I have seen this data preparation technique improve results almost all the times. It is just easy for the model to comprehend data that fit in the same scale.
     - Sample Data <br>
       The data captured from Hadoop and other components and system metrics is too frequent (seconds) to be used directly for modelling and hence sampling into higher time measures is very important using aggregations like mean, median, min, max depending on the use-case. This way a lot of noise is excluded from entering the model.
@@ -79,7 +107,7 @@ The important point to note is that, using fancy tools to accomplish a task is n
     - Now that we have the data ready to be run model on, we choose the train and test data and use multiple algorithms to see which one of the Algorithms, hyper-params and params give best results.
     - The best model is chosen and forecasts are then generated. Our models are based on Facebook's [Prophet](https://facebook.github.io/prophet/),
     [LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) and [VAR](https://en.wikipedia.org/wiki/Vector_autoregression).
-  - Prepare Data for writing results to DB
+  - Prepare Data for writing results to DB <br>
     Data preparation is not only necessary to train the model. When we often write back data to some database, some design choices have to be made so that the end/business users can make appropriate use of the data. Tasks can be something like:
     - adding time as a field or even making it a primary key
     - writing data keeping in mind the indexes for the tables/documents/measurements
@@ -91,42 +119,44 @@ The important point to note is that, using fancy tools to accomplish a task is n
 Evaluation or Error Calculation is the measure that decides which model works better and should be chosen for forecasts on production data. Since dealing with absolute values, we have used [MAPE](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error) as the error measure.
 
 ## Data Model
-This is where software engineering again comes into picture. The business users have better idea about the sampling frequency and prediction periods. So, it makes sense to accept these kind of params from the users and prepare our data or run our models based on them. So, there is a simple web app that routes this data from user to our forecasting app. Below is a sample of the request payload.
+This is where software engineering again comes into picture. The business users have better idea about the _sampling, frequency_ and _prediction periods_ (remember we mentioned earlier accepting information from business users). So, it makes sense to accept these kind of params from the users and prepare our data or run our models based on them. This can be highly debated but suited our use case. Below is a sample of the request payload.
+
 ```json
 {  
-   "job_name":"Resource Forecasting",
+   "job_name":"queue_usage_forecaster",
    "job_description":"Get predictions for next 'k' days/hours/months",
    "user_name":"Bob",
-   "project":"capacity forecasting",
+   "project":"Capacity Forecasting",
    "owner":"ui-service",
    "data":{  
       "source":{  
          "name":"mongodb",
-         "document":"document_name",
-         "collection":"collection_name"
+         "document":"<replace_with_apt_name>",
+         "collection":"<replace_with_apt_name>"
       },
       "destination":{  
          "name":"influxdb",
-         "database":"db_name",
-         "measurement":"measurement_name"
+         "database":"<replace_with_apt_name>",
+         "measurement":"<replace_with_apt_name>"
       }
    },
    "aggregation_time_period":"1h",
    "data_ingestion_time_period":"5d",
-   "model":"prophet",
    "future_prediction_time_period":"3d"
 }
 ```
 
 This can be persisted in a db to keep an account of the usage but again for brevity I will skip discussing about it.
 
-## How to get going when you are on your own?
+## How to get going when going gets tough?
 
-This section has got nothing to do with productionizing ML pipelines. Here are some tips that can help you to get work done in case there is less help available.
+This section has got nothing to do with productionizing ML pipelines. These are some tips that can help you to get work done in case there is less help available.
 
 1. The Rubber Duck Methodology <br>
   Read more about the [technique](https://en.wikipedia.org/wiki/Rubber_duck_debugging) here. However, in short, it just means to explain the problem and the solution to yourself and convince that this is correct. Remember that along with just completing a task, you are learning something that might come in handy in the future. So, try to grill yourself as much as you can to make sure what you are doing it right. However, do not fall into the trap of perfecting your work. There is a fine line between the two.
 2. Read <br>
   There is clearly a lot of information available about how to productionize ML models. Read through engineering/data science blogs from good companies that do not shy away from sharing their experiences online. Read and reread to grasp the stuff and try to implement what suits your needs.
 3. Write <br>
-  There is a huge community out there on Twitter, LinkedIn, Medium where you can share your work and get suggestion/tips. However, do talk to your seniors to know if it is okay to share the content publicly before doing it. I have a green flag from my CEO to give you a perspective.
+  There is a huge community out there on Twitter, LinkedIn, Medium where you can share your work and get suggestion/tips. However, do talk to your seniors to know if it is okay to share the content publicly before doing it. I have a green flag from my CEO to give you a perspective
+
+## End Notes

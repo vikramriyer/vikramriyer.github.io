@@ -1,64 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://vikramriyer.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vikramriyer.github.io/" rel="alternate" type="text/html" /><updated>2019-07-17T19:39:10+05:30</updated><id>https://vikramriyer.github.io/feed.xml</id><title type="html">Vikram Iyer</title><subtitle>Data Science Portfolio</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;&quot;/assets/images/vikram_acceldata_photo.jpg&quot;, &quot;bio&quot;=&gt;&quot;Software Engineer who understands tech products and businesses and can combine Machine Learning expertise to solve problems&quot;, &quot;location&quot;=&gt;&quot;Bangalore, India&quot;, &quot;email&quot;=&gt;&quot;vikram.iyer09@gmail.com&quot;, &quot;links&quot;=&gt;[{&quot;label&quot;=&gt;&quot;Website&quot;, &quot;icon&quot;=&gt;&quot;fas fa-fw fa-link&quot;, &quot;url&quot;=&gt;&quot;https://vikramriyer.github.io&quot;}, {&quot;label&quot;=&gt;&quot;Twitter&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-twitter-square&quot;, &quot;url&quot;=&gt;&quot;https://twitter.com/vikramriyer&quot;}, {&quot;label&quot;=&gt;&quot;GitHub&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/vikramriyer&quot;}, {&quot;label&quot;=&gt;&quot;LinkedIn&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-linkedin&quot;, &quot;url&quot;=&gt;&quot;https://linkedin.com/in/vikramriyer&quot;}]}</name><email>vikram.iyer09@gmail.com</email></author><entry><title type="html">What does deploying to production mean?</title><link href="https://vikramriyer.github.io/machine-learning-to-production/" rel="alternate" type="text/html" title="What does deploying to production mean?" /><published>2019-07-15T01:00:50+05:30</published><updated>2019-07-15T01:00:50+05:30</updated><id>https://vikramriyer.github.io/machine-learning-to-production</id><content type="html" xml:base="https://vikramriyer.github.io/machine-learning-to-production/">&lt;h2 id=&quot;introduction-and-what-i-do-where-i-do-what-i-do&quot;&gt;Introduction and What I do, Where I do what I do.&lt;/h2&gt;
-&lt;p&gt;I am a Machine Learning Engineer at &lt;a href=&quot;https://acceldata.io/&quot;&gt;Acceldata&lt;/a&gt;; the tasks however actually comprises the trio of “Software Engineer, Machine Learning and Data Engineering”; though not at a Google scale. The &lt;em&gt;tagline&lt;/em&gt; for Acceldata is &lt;em&gt;‘Data Lake Operations Optimised’&lt;/em&gt; and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc. Out of interest and to make some extra bucks, I also mentor students at Udacity for Data Engineering and Data Analyst Nanodegrees.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://vikramriyer.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vikramriyer.github.io/" rel="alternate" type="text/html" /><updated>2019-07-18T11:09:24+05:30</updated><id>https://vikramriyer.github.io/feed.xml</id><title type="html">Vikram Iyer</title><subtitle>Data Science Portfolio</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;&quot;/assets/images/vikram_acceldata_photo.jpg&quot;, &quot;bio&quot;=&gt;&quot;Software Engineer who understands tech products and businesses and can combine Machine Learning expertise to solve problems&quot;, &quot;location&quot;=&gt;&quot;Bangalore, India&quot;, &quot;email&quot;=&gt;&quot;vikram.iyer09@gmail.com&quot;, &quot;links&quot;=&gt;[{&quot;label&quot;=&gt;&quot;Website&quot;, &quot;icon&quot;=&gt;&quot;fas fa-fw fa-link&quot;, &quot;url&quot;=&gt;&quot;https://vikramriyer.github.io&quot;}, {&quot;label&quot;=&gt;&quot;Twitter&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-twitter-square&quot;, &quot;url&quot;=&gt;&quot;https://twitter.com/vikramriyer&quot;}, {&quot;label&quot;=&gt;&quot;GitHub&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/vikramriyer&quot;}, {&quot;label&quot;=&gt;&quot;LinkedIn&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-linkedin&quot;, &quot;url&quot;=&gt;&quot;https://linkedin.com/in/vikramriyer&quot;}]}</name><email>vikram.iyer09@gmail.com</email></author><entry><title type="html">What does deploying to production mean?</title><link href="https://vikramriyer.github.io/machine-learning-to-production/" rel="alternate" type="text/html" title="What does deploying to production mean?" /><published>2019-07-15T01:00:50+05:30</published><updated>2019-07-15T01:00:50+05:30</updated><id>https://vikramriyer.github.io/machine-learning-to-production</id><content type="html" xml:base="https://vikramriyer.github.io/machine-learning-to-production/">&lt;h2 id=&quot;introduction-and-what-i-do-where-i-do-what-i-do&quot;&gt;Introduction and What I do, Where I do what I do.&lt;/h2&gt;
+&lt;p&gt;I am a Machine Learning Engineer at &lt;a href=&quot;https://acceldata.io/&quot;&gt;Acceldata&lt;/a&gt;; the tasks however actually comprises the trio of “Software Engineer, Machine Learning and Data Engineering”. The &lt;em&gt;tagline&lt;/em&gt; for Acceldata is &lt;em&gt;‘Data Lake Operations Optimised’&lt;/em&gt; and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc.&lt;/p&gt;
 
-&lt;h2 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h2&gt;
-&lt;p&gt;As I mentioned above, I come from a Software Development background, and I can visualise all the nightmares that I or my colleagues have been through trying to productionize their code/idea. People having working in companies having periodic on-call activities might understand this even better. So, what does it actually mean when people say “Productionizing Machine Learning Projects”? :rocket: :rocket: :rocket: :rocket:&lt;/p&gt;
+&lt;p&gt;I come from a Software Development background, and I can visualise all the nightmares that I or my colleagues have been through trying to productionize their code. People having worked in companies having periodic on-call activities might understand this even better.&lt;/p&gt;
 
 &lt;p&gt;If one closely watches the trend of how courses that teach Machine Learning are designed, it is easy to see one similar pattern across all of the courses. Developing everything using the &lt;strong&gt;Jupyter Notebooks&lt;/strong&gt;. Though it is the best way to learn Data Science and Visualize the results, productinizing code is a different beast altogether. So, there is a clear gap when it comes to models in &lt;em&gt;Notebooks&lt;/em&gt; vs models in &lt;em&gt;Production&lt;/em&gt;. In this post, I would like to address this GAP and show how we at &lt;a href=&quot;https://acceldata.io/&quot;&gt;Acceldata&lt;/a&gt; productionize machine learning projects.&lt;/p&gt;
 
-&lt;p&gt;Writing a Tech Spec documentation almost always helps. I did this as part of the engineering team and am very much used to it. Here are a few resources which talk about writing good tech specs. The content would be slightly different in case of a machine learning project, but the need for the tech spec remains the same. Getting an idea of the project, the features and the scope.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: A forecasting problem might not be a Machine Learning problem, but since we are learning the representation of several independent variables to one dependent variable and predicting the dependent variable, I will be brave and call it a Machine Learning (like) model.&lt;/p&gt;
 
-&lt;p&gt;So, let’s focus on what the the problem we have at hand and learn more about how we tackled it. Below is the explanation of how I take ML Models to production.&lt;/p&gt;
+&lt;h2 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h2&gt;
 
-&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;To forecast the resource usage for different queues in &lt;a href=&quot;https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html&quot;&gt;YARN&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;To give you more information about this, the queues in YARN can be imagined to be similar to &lt;a href=&quot;https://en.wikipedia.org/wiki/Queue_(abstract_data_type)&quot;&gt;queues&lt;/a&gt; in Data Structures and used for the task of &lt;a href=&quot;https://hortonworks.com/blog/yarn-capacity-scheduler/&quot;&gt;scheduling&lt;/a&gt; of jobs, tasks. So, these queues are given a certain capacity which is the number of tasks, jobs that can be stored in it. The queue can be partitioned into multiple sub-queues, but for brevity I will consider a single queue. At any point in time, the queue has a property which is its &lt;strong&gt;‘Used Capacity’&lt;/strong&gt;. Our task is to forecast how much capacity of the queue will be used at some point in the future.&lt;/p&gt;
+&lt;p&gt;To give you more information about this, the queues in YARN can be imagined to be similar to &lt;a href=&quot;https://en.wikipedia.org/wiki/Queue_(abstract_data_type)&quot;&gt;queues&lt;/a&gt; in Data Structures and used for the task of scheduling (&lt;a href=&quot;https://hortonworks.com/blog/yarn-capacity-scheduler/&quot;&gt;read more here&lt;/a&gt;) of jobs, tasks. So, these queues are given a certain capacity which can be imagined to be the number of tasks, jobs that can be stored in it. The queue can be partitioned into multiple sub-queues. The queue has a property which is its &lt;strong&gt;‘Used Capacity’&lt;/strong&gt; at a point in time. Our task is to forecast how much capacity of the queue will be used at some point in the &lt;strong&gt;future&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Using the above forecast, business users will be able to take actions as to upscale or downscale their queues so as to meet the needs at times in the future.&lt;/p&gt;
+  &lt;p&gt;Using the above forecast, business users will be able to make informed decisions as to whether upscale or downscale their queues.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;simple-high-level-design&quot;&gt;Simple High Level Design&lt;/h2&gt;
+&lt;p&gt;Let’s talk a bit about the components that we will discuss throughout the post and how they are interlinked and complete the puzzle i.e. ML to production.&lt;/p&gt;
+
+&lt;h2 id=&quot;simple-high-level-system-design&quot;&gt;Simple High Level (System) Design&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/machine_learning/hld_ml_to_prod.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Let’s start going through each of the components in detail.&lt;/p&gt;
+&lt;p&gt;Let’s start going through each of the components i.e. MongoDB, InfluxDB and then the ML pipeline in that order.&lt;/p&gt;
 
 &lt;h3 id=&quot;mongodb&quot;&gt;MongoDB&lt;/h3&gt;
-&lt;p&gt;We use MongoDB to store log information and also resource usage values for each of the queues in YARN. Now, to analyze and write predictive algorithms about this data, it is imperative that we import this data and then process it.&lt;/p&gt;
+&lt;p&gt;We use MongoDB to store log information of all the components that we support (&lt;a href=&quot;https://trial.acceldata.dev/#/dashboard&quot;&gt;check here&lt;/a&gt;) and also resource usage values for each of the queues in YARN. Now, to analyse and write predictive algorithms about this data, it is imperative that we import this data and then process it.&lt;/p&gt;
+
+&lt;p&gt;Below is a snapshot (skipped features and samples) of how the data looks like.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;_id&lt;/th&gt;
+      &lt;th&gt;absMaxCapacity&lt;/th&gt;
+      &lt;th&gt;numActiveApps&lt;/th&gt;
+      &lt;th&gt;numPendingApps&lt;/th&gt;
+      &lt;th&gt;vcoresTotal&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+      &lt;td&gt;75&lt;/td&gt;
+      &lt;td&gt;75&lt;/td&gt;
+      &lt;td&gt;1071&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;15.34&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;164&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;28.57&lt;/td&gt;
+      &lt;td&gt;31&lt;/td&gt;
+      &lt;td&gt;31&lt;/td&gt;
+      &lt;td&gt;306&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;38.09&lt;/td&gt;
+      &lt;td&gt;41&lt;/td&gt;
+      &lt;td&gt;41&lt;/td&gt;
+      &lt;td&gt;408&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;18&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;193&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Each of the rows above describe the status of a &lt;strong&gt;queue&lt;/strong&gt; at a particular point in time.&lt;/p&gt;
 
 &lt;h3 id=&quot;influxdb&quot;&gt;InfluxDB&lt;/h3&gt;
-&lt;p&gt;Most of the data that we collect at Acceldata is time-series based and it only makes sense to store it in a time series database. The debate about why InfluxDB and not any other TSDB is best left for another post. So finally, I too choose to pump in time-series based predictions to InfluxDB.&lt;/p&gt;
+&lt;p&gt;Now Most of the data that we collect at Acceldata is time-series based and it only makes sense to store it in a time series database. Since the predictions
+are time-series based i.e. the forecasts are timestamps in the future displaying the queue usage, all the predictions are written to InfluxDB. We acknowledge the fact that no one can be perfect. So along with the predictions, we make sure to predict the upper and lower bounds of the queue usage so as to give the business user a perspective of how much variance one can expect.&lt;/p&gt;
 
 &lt;h3 id=&quot;ml-pipeline&quot;&gt;ML Pipeline&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Clean and Preprocess the data and get it ready to push to a time-series model.&lt;/li&gt;
-  &lt;li&gt;Train the model based on multiple hyper-params and params and choose the best model&lt;/li&gt;
+  &lt;li&gt;Clean and Preprocess the data and get it ready to pass to a time-series model.&lt;/li&gt;
+  &lt;li&gt;Train the model and based on error criteria (&lt;a href=&quot;#evaluation-of-the-models&quot;&gt;discussed below&lt;/a&gt;), choose the best model&lt;/li&gt;
+  &lt;li&gt;Forecast predictions, upper bound as well as lower bounds&lt;/li&gt;
+  &lt;li&gt;Prepare data to write into InfluxDB
+A detailed explanation for each of the Machine Learning Steps involved is discussed &lt;a href=&quot;#looking-at-the-machine-learning-pipeline-in-detail&quot;&gt;later&lt;/a&gt; in this post.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h3&gt;
-&lt;p&gt;Though this component is developed by the UI team, it only makes sense to add it here to show how the end result looks like. A Data Science project is incomplete without visualisation. The predicted data that is pumped into InfluxDB is rendered to the UI and below is how the predictions look like. The below image shows 2 queues i.e. DEFAULT and LLAP which are sub-queues under root queue. The first image is a merge of the actual queue usage and predicted queue usage for the current day. The second image is the predictions for the next day.&lt;/p&gt;
+&lt;p&gt;Finally, time to see the results! A Data Science project is incomplete without visualisation. The predicted data that is pumped into InfluxDB is rendered to the UI and below is how the predictions look like.&lt;/p&gt;
+
+&lt;p&gt;The below images show 2 queues i.e. DEFAULT and LLAP which are sub-queues under root queue. The first image merges the &lt;strong&gt;actual queue usage&lt;/strong&gt; and &lt;strong&gt;predicted queue usage&lt;/strong&gt; for the current day. The second image is the predictions for the next day. The number of days to predict in the future is a configurable param that is present in the &lt;a href=&quot;#data-model&quot;&gt;data model section&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/machine_learning/capacity_prediction_1.png&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;/assets/images/machine_learning/capacity_prediction_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;looking-at-the-machine-learning-pipeline-in-detail&quot;&gt;Looking at the Machine Learning Pipeline in detail&lt;/h2&gt;
 
+&lt;p&gt;This is the most important section and actually explains what the &lt;strong&gt;title&lt;/strong&gt; promised. Let’s discuss what all are the parts when stitched together help us get a Machine Learning model to production.&lt;/p&gt;
+
 &lt;h3 id=&quot;software-engineering&quot;&gt;Software Engineering&lt;/h3&gt;
+
+&lt;p&gt;Software Engineering is an art of abstracting tech stuff so that even users who do not understand code can use it to get the results they desire. Below are some of the tasks that fall under the software engineering category and important to complete the pipeline.&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Designing Database Access Layers (importing and exporting data into various databases by abstracting business logic)&lt;/li&gt;
-  &lt;li&gt;Abstracted Object Oriented Design for exposing Models to the business users (in this case the UI Dashboard)&lt;/li&gt;
-  &lt;li&gt;Designing Data Model (for choosing the hyper-params and other model specific params to suit business needs)&lt;/li&gt;
+  &lt;li&gt;Designing Database Access Layers also called DAO &lt;br /&gt;
+  Since we are dealing with multiple sources of data, we cannot expect the business user to specify how to query the sources for data. We expect them to specify where the data is located. Writing code to extract data from different sources lies in the hands of the Software Engineers that design the these systems&lt;/li&gt;
+  &lt;li&gt;Web App layer to get details about the params for the Data Ingestion sources &lt;br /&gt;
+  The business users request data through this layer that stands as an interface between the Machine Learning models and them. For this to happen, a usual practice is to design an API or Data Model that can be exposed via a REST/web layer discussed in the above point&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;data-engineering&quot;&gt;Data Engineering&lt;/h3&gt;
-&lt;p&gt;The important point to note is that, using fancy tools to accomplish a task is not software or data engineering. Making correct (close to correct :bowtie:) choices to ease/fasten production usage keeping scaling in mind are signs of a good engineer.&lt;/p&gt;
+
+&lt;p&gt;There are blog posts that discuss how Data Engineers extracted data from different data sources and warehouses, and merged them and pushed to a SQL or NOSQL db or even CSV files so that the Data Scientists would be able to work seamlessly with the data. I will simplify it and discuss how I performed data engineering to get data into the Machine Learning models.&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;As the current pipeline stands, getting data from multiple sources (MongoDB and InfluxDB) is easy for me with a few configurations so that the Machine Learning pipeline can kick in sooner.&lt;/li&gt;
-  &lt;li&gt;In most cases where devs are dealing with multiple data sources and various business users, the data engineering pipelines get complicated. Data storage and retrieval becomes a huge headache and choices of SQL vs NOSQL dbs, Row vs Columnar dbs, etc kick in design discussions about such cases are topics for another post.&lt;/li&gt;
+  &lt;li&gt;In most cases where devs are dealing with multiple data sources and various business users, the data engineering pipelines get complicated. Data storage and retrieval becomes a huge headache and choices of SQL vs NOSQL vs warehouses, Batch vs Stream processing, etc kick in design discussions about such cases are topics for another post.&lt;/li&gt;
+  &lt;li&gt;For us fortunately (as of now), the data sources are InfluxDB and MongoDB only. Using the abstracted tools from the Software Engineering &lt;a href=&quot;#software-engineering&quot;&gt;section&lt;/a&gt;, we can get this data in the format that is desired using various db clients. Most of the code for this is written in Python and most of API clients have a provision to get this data in the &lt;a href=&quot;https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html&quot;&gt;DataFrame&lt;/a&gt; format that is best suited for Machine Learning models.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Now that we have our data extracted and ready for Machine Learning model, let’s head into seeing what are the various parts in Machine Learning.&lt;/p&gt;
 
 &lt;h3 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h3&gt;
 &lt;ul&gt;
@@ -85,7 +154,7 @@
           &lt;li&gt;proximity to weekend&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Scaling Data &lt;br /&gt;
+      &lt;li&gt;Normalising/Scaling Data &lt;br /&gt;
 I have seen this data preparation technique improve results almost all the times. It is just easy for the model to comprehend data that fit in the same scale.&lt;/li&gt;
       &lt;li&gt;Sample Data &lt;br /&gt;
 The data captured from Hadoop and other components and system metrics is too frequent (seconds) to be used directly for modelling and hence sampling into higher time measures is very important using aggregations like mean, median, min, max depending on the use-case. This way a lot of noise is excluded from entering the model.&lt;/li&gt;
@@ -98,7 +167,7 @@ The data captured from Hadoop and other components and system metrics is too fre
 &lt;a href=&quot;https://colah.github.io/posts/2015-08-Understanding-LSTMs/&quot;&gt;LSTM&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Vector_autoregression&quot;&gt;VAR&lt;/a&gt;.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Prepare Data for writing results to DB
+  &lt;li&gt;Prepare Data for writing results to DB &lt;br /&gt;
 Data preparation is not only necessary to train the model. When we often write back data to some database, some design choices have to be made so that the end/business users can make appropriate use of the data. Tasks can be something like:
     &lt;ul&gt;
       &lt;li&gt;adding time as a field or even making it a primary key&lt;/li&gt;
@@ -114,37 +183,37 @@ Data preparation is not only necessary to train the model. When we often write b
 &lt;p&gt;Evaluation or Error Calculation is the measure that decides which model works better and should be chosen for forecasts on production data. Since dealing with absolute values, we have used &lt;a href=&quot;https://en.wikipedia.org/wiki/Mean_absolute_percentage_error&quot;&gt;MAPE&lt;/a&gt; as the error measure.&lt;/p&gt;
 
 &lt;h2 id=&quot;data-model&quot;&gt;Data Model&lt;/h2&gt;
-&lt;p&gt;This is where software engineering again comes into picture. The business users have better idea about the sampling frequency and prediction periods. So, it makes sense to accept these kind of params from the users and prepare our data or run our models based on them. So, there is a simple web app that routes this data from user to our forecasting app. Below is a sample of the request payload.&lt;/p&gt;
+&lt;p&gt;This is where software engineering again comes into picture. The business users have better idea about the &lt;em&gt;sampling, frequency&lt;/em&gt; and &lt;em&gt;prediction periods&lt;/em&gt; (remember we mentioned earlier accepting information from business users). So, it makes sense to accept these kind of params from the users and prepare our data or run our models based on them. This can be highly debated but suited our use case. Below is a sample of the request payload.&lt;/p&gt;
+
 &lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  
-   &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;job_name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Resource Forecasting&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+   &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;job_name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;queue_usage_forecaster&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;job_description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Get predictions for next 'k' days/hours/months&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;user_name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Bob&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-   &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;project&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;capacity forecasting&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+   &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;project&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Capacity Forecasting&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;owner&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ui-service&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;data&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  
       &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;source&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  
          &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mongodb&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-         &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;document&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;document_name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-         &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;collection&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;collection_name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+         &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;document&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;replace_with_apt_name&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+         &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;collection&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;replace_with_apt_name&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
       &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
       &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;destination&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  
          &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;influxdb&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-         &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;database&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;db_name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-         &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;measurement&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;measurement_name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+         &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;database&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;replace_with_apt_name&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+         &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;measurement&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;replace_with_apt_name&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
       &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;aggregation_time_period&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1h&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;data_ingestion_time_period&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;5d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-   &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;model&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;prophet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;future_prediction_time_period&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;3d&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;This can be persisted in a db to keep an account of the usage but again for brevity I will skip discussing about it.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-to-get-going-when-you-are-on-your-own&quot;&gt;How to get going when you are on your own?&lt;/h2&gt;
+&lt;h2 id=&quot;how-to-get-going-when-going-gets-tough&quot;&gt;How to get going when going gets tough?&lt;/h2&gt;
 
-&lt;p&gt;This section has got nothing to do with productionizing ML pipelines. Here are some tips that can help you to get work done in case there is less help available.&lt;/p&gt;
+&lt;p&gt;This section has got nothing to do with productionizing ML pipelines. These are some tips that can help you to get work done in case there is less help available.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;The Rubber Duck Methodology &lt;br /&gt;
@@ -152,5 +221,7 @@ Data preparation is not only necessary to train the model. When we often write b
   &lt;li&gt;Read &lt;br /&gt;
   There is clearly a lot of information available about how to productionize ML models. Read through engineering/data science blogs from good companies that do not shy away from sharing their experiences online. Read and reread to grasp the stuff and try to implement what suits your needs.&lt;/li&gt;
   &lt;li&gt;Write &lt;br /&gt;
-  There is a huge community out there on Twitter, LinkedIn, Medium where you can share your work and get suggestion/tips. However, do talk to your seniors to know if it is okay to share the content publicly before doing it. I have a green flag from my CEO to give you a perspective.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;&quot;/assets/images/vikram_acceldata_photo.jpg&quot;, &quot;bio&quot;=&gt;&quot;Software Engineer who understands tech products and businesses and can combine Machine Learning expertise to solve problems&quot;, &quot;location&quot;=&gt;&quot;Bangalore, India&quot;, &quot;email&quot;=&gt;&quot;vikram.iyer09@gmail.com&quot;, &quot;links&quot;=&gt;[{&quot;label&quot;=&gt;&quot;Website&quot;, &quot;icon&quot;=&gt;&quot;fas fa-fw fa-link&quot;, &quot;url&quot;=&gt;&quot;https://vikramriyer.github.io&quot;}, {&quot;label&quot;=&gt;&quot;Twitter&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-twitter-square&quot;, &quot;url&quot;=&gt;&quot;https://twitter.com/vikramriyer&quot;}, {&quot;label&quot;=&gt;&quot;GitHub&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/vikramriyer&quot;}, {&quot;label&quot;=&gt;&quot;LinkedIn&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-linkedin&quot;, &quot;url&quot;=&gt;&quot;https://linkedin.com/in/vikramriyer&quot;}]}</name><email>vikram.iyer09@gmail.com</email></author><summary type="html">Introduction and What I do, Where I do what I do. I am a Machine Learning Engineer at Acceldata; the tasks however actually comprises the trio of “Software Engineer, Machine Learning and Data Engineering”; though not at a Google scale. The tagline for Acceldata is ‘Data Lake Operations Optimised’ and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc. Out of interest and to make some extra bucks, I also mentor students at Udacity for Data Engineering and Data Analyst Nanodegrees.</summary></entry></feed>
+  There is a huge community out there on Twitter, LinkedIn, Medium where you can share your work and get suggestion/tips. However, do talk to your seniors to know if it is okay to share the content publicly before doing it. I have a green flag from my CEO to give you a perspective&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;end-notes&quot;&gt;End Notes&lt;/h2&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;&quot;/assets/images/vikram_acceldata_photo.jpg&quot;, &quot;bio&quot;=&gt;&quot;Software Engineer who understands tech products and businesses and can combine Machine Learning expertise to solve problems&quot;, &quot;location&quot;=&gt;&quot;Bangalore, India&quot;, &quot;email&quot;=&gt;&quot;vikram.iyer09@gmail.com&quot;, &quot;links&quot;=&gt;[{&quot;label&quot;=&gt;&quot;Website&quot;, &quot;icon&quot;=&gt;&quot;fas fa-fw fa-link&quot;, &quot;url&quot;=&gt;&quot;https://vikramriyer.github.io&quot;}, {&quot;label&quot;=&gt;&quot;Twitter&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-twitter-square&quot;, &quot;url&quot;=&gt;&quot;https://twitter.com/vikramriyer&quot;}, {&quot;label&quot;=&gt;&quot;GitHub&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/vikramriyer&quot;}, {&quot;label&quot;=&gt;&quot;LinkedIn&quot;, &quot;icon&quot;=&gt;&quot;fab fa-fw fa-linkedin&quot;, &quot;url&quot;=&gt;&quot;https://linkedin.com/in/vikramriyer&quot;}]}</name><email>vikram.iyer09@gmail.com</email></author><summary type="html">Introduction and What I do, Where I do what I do. I am a Machine Learning Engineer at Acceldata; the tasks however actually comprises the trio of “Software Engineer, Machine Learning and Data Engineering”. The tagline for Acceldata is ‘Data Lake Operations Optimised’ and I help the team/company do exactly that using tools of Machine Learning, Time Series Forecasting, Anomaly Detection, etc.</summary></entry></feed>
