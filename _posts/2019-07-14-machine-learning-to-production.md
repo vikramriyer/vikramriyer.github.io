@@ -25,10 +25,10 @@ Let's talk a bit about the components that we will discuss throughout the post a
 ## Simple High Level (System) Design
 ![](/assets/images/machine_learning/hld_ml_to_prod.png)
 
-Let's start going through each of the components i.e. MongoDB, InfluxDB and then the ML pipeline in that order.
+Let's start going through each of the components i.e. DocumentDB, TSDB and then the ML pipeline in that order.
 
-### MongoDB
-We use MongoDB to store log information of all the components that we support ([check here](https://trial.acceldata.dev/#/dashboard)) and also resource usage values for each of the queues in YARN. Now, to analyse and write predictive algorithms about this data, it is imperative that we import this data and then process it.
+### DocumentDB
+We use DocumentDB to store log information of all the components that we support ([check here](https://trial.acceldata.dev/#/dashboard)) and also resource usage values for each of the queues in YARN. Now, to analyse and write predictive algorithms about this data, it is imperative that we import this data and then process it.
 
 Below is a snapshot (skipped features and samples) of how the data looks like.
 
@@ -42,19 +42,19 @@ Below is a snapshot (skipped features and samples) of how the data looks like.
 
 Each of the rows above describe the status of a __queue__ at a particular point in time.
 
-### InfluxDB
+### TSDB
 Now Most of the data that we collect at Acceldata is time-series based and it only makes sense to store it in a time series database. Since the predictions
-are time-series based i.e. the forecasts are timestamps in the future displaying the queue usage, all the predictions are written to InfluxDB. We acknowledge the fact that no one can be perfect. So along with the predictions, we make sure to predict the upper and lower bounds of the queue usage so as to give the business user a perspective of how much variance one can expect.
+are time-series based i.e. the forecasts are timestamps in the future displaying the queue usage, all the predictions are written to TSDB. We acknowledge the fact that no one can be perfect. So along with the predictions, we make sure to predict the upper and lower bounds of the queue usage so as to give the business user a perspective of how much variance one can expect.
 
 ### ML Pipeline
 - Clean and Preprocess the data and get it ready to pass to a time-series model.
 - Train the model and based on error criteria ([discussed below](#evaluation-of-the-models)), choose the best model
 - Forecast predictions, upper bound as well as lower bounds
-- Prepare data to write into InfluxDB
+- Prepare data to write into TSDB
 A detailed explanation for each of the Machine Learning Steps involved is discussed [later](#looking-at-the-machine-learning-pipeline-in-detail) in this post.
 
 ### Dashboard
-Finally, time to see the results! A Data Science project is incomplete without visualisation. The predicted data that is pumped into InfluxDB is rendered to the UI and below is how the predictions look like.
+Finally, time to see the results! A Data Science project is incomplete without visualisation. The predicted data that is pumped into TSDB is rendered to the UI and below is how the predictions look like.
 
 The below images show 2 queues i.e. DEFAULT and LLAP which are sub-queues under root queue. The first image merges the __actual queue usage__ and __predicted queue usage__ for the current day. The second image is the predictions for the next day. The number of days to predict in the future is a configurable param that is present in the [data model section](#data-model).
 
@@ -79,7 +79,7 @@ Software Engineering is an art of abstracting tech stuff so that even users who 
 There are blog posts that discuss how Data Engineers extracted data from different data sources and warehouses, and merged them and pushed to a SQL or NOSQL db or even CSV files so that the Data Scientists would be able to work seamlessly with the data. I will simplify it and discuss how I performed data engineering to get data into the Machine Learning models.
 
   - In most cases where devs are dealing with multiple data sources and various business users, the data engineering pipelines get complicated. Data storage and retrieval becomes a huge headache and choices of SQL vs NOSQL vs warehouses, Batch vs Stream processing, etc kick in design discussions about such cases are topics for another post.
-  - For us fortunately (as of now), the data sources are InfluxDB and MongoDB only. Using the abstracted tools from the Software Engineering [section](#software-engineering), we can get this data in the format that is desired using various db clients. Most of the code for this is written in Python and most of API clients have a provision to get this data in the [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) format that is best suited for Machine Learning models.
+  - For us fortunately (as of now), the data sources are TSDB and DocumentDB only. Using the abstracted tools from the Software Engineering [section](#software-engineering), we can get this data in the format that is desired using various db clients. Most of the code for this is written in Python and most of API clients have a provision to get this data in the [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) format that is best suited for Machine Learning models.
 
 Now that we have our data extracted and ready for Machine Learning model, let's head into seeing what are the various parts in Machine Learning.
 
@@ -130,12 +130,12 @@ This is where software engineering again comes into picture. The business users 
    "owner":"ui-service",
    "data":{  
       "source":{  
-         "name":"mongodb",
+         "name":"documentdb",
          "document":"<replace_with_apt_name>",
          "collection":"<replace_with_apt_name>"
       },
       "destination":{  
-         "name":"influxdb",
+         "name":"tsdb",
          "database":"<replace_with_apt_name>",
          "measurement":"<replace_with_apt_name>"
       }
@@ -148,15 +148,5 @@ This is where software engineering again comes into picture. The business users 
 
 This can be persisted in a db to keep an account of the usage but again for brevity I will skip discussing about it.
 
-## How to get going when going gets tough?
-
-This section has got nothing to do with productionizing ML pipelines. These are some tips that can help you to get work done in case there is less help available.
-
-1. The Rubber Duck Methodology <br>
-  Read more about the [technique](https://en.wikipedia.org/wiki/Rubber_duck_debugging) here. However, in short, it just means to explain the problem and the solution to yourself and convince that this is correct. Remember that along with just completing a task, you are learning something that might come in handy in the future. So, try to grill yourself as much as you can to make sure what you are doing it right. However, do not fall into the trap of perfecting your work. There is a fine line between the two.
-2. Read <br>
-  There is clearly a lot of information available about how to productionize ML models. Read through engineering/data science blogs from good companies that do not shy away from sharing their experiences online. Read and reread to grasp the stuff and try to implement what suits your needs.
-3. Write <br>
-  There is a huge community out there on Twitter, LinkedIn, Medium where you can share your work and get suggestion/tips. However, do talk to your seniors to know if it is okay to share the content publicly before doing it. I have a green flag from my CEO to give you a perspective
-
-## End Notes
+## Conclusion
+We have seen how to productionize ML pipelines and how Software Engineering, Data Engineering and Machine Learning all play a role in the Productionization of such pipelines.
