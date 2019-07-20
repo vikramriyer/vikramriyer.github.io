@@ -51,6 +51,7 @@ are time-series based i.e. the forecasts are timestamps in the future displaying
 - Train the model and based on error criteria ([discussed below](#evaluation-of-the-models)), choose the best model
 - Forecast predictions, upper bound as well as lower bounds
 - Prepare data to write into TSDB
+
 A detailed explanation for each of the Machine Learning Steps involved is discussed [later](#looking-at-the-machine-learning-pipeline-in-detail) in this post.
 
 ## Dashboard
