@@ -1,5 +1,5 @@
 ---
-title: Acceldata uses Machine Learning to identify complex BigData infrastructure and workload issues
+title: Deploying Machine Learning to production to identify complex BigData Infra workload issues
 date: 2019-07-14 19:30:50
 ---
 
