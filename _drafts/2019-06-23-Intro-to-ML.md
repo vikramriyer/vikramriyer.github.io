@@ -1,8 +1,6 @@
 ---
-title: An Introduction to Machine Learning - You need not look anywhere else to understand what ML is!
+title: An Introduction to Machine Learning - (only Theory, no Code, but Interesting)
 date: 2019-06-23 19:30:50
-categories: machine_learning
-permalink: /:categories/an_intro_to_machine_learning
 ---
 
 ## What does the field of Machine Learning want?

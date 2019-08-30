@@ -16,14 +16,13 @@ Having a good design thinking ability helps understand how stable systems are bu
 
 ## Some Design Considerations and/or Assumptions
 
-
 This is where you get to think like a business owner. Understanding how and what the product is meant to do. Ås a business owner, you are expected to gain clarity about the product that you are about to discuss and design and implement. Not paying enough attention to this in detail might jeopardize the quality of the product. On the other hand, there is also a case where you might want to avoid over-thinking about it. This will lead to overcomplicating stuff like inventing a noise-canceling (silencer equipped) gun to kill a cockroach. So, how do we strike the right balance and that too in cases where you might stumble upon a question at an interview that you have not prepared for? Keep reading!
 
 ### Functional Requirements
 These are requirements that a user would be directly involved in. To explain that with an example, let's consider designing WhatsApp. What are the first few questions that strike your mind when you think of using WhatsApp
 
 Basic
-- I want to be able to text with my friends
+- I want to be able to text my friends
 - I want to be able to send emojis
 
 Moderately Advanced
@@ -87,7 +86,7 @@ Data => (data_id, content, type)
 - Do you always open the app to see the messages?
   All our discussion above has been about how to send messages. However, you get notifications when a new message arrives. How do you think does this work? Has it got anything to do with push messages? How do you implement such a mechanism.
 
-There are additional such details that you can discuss with your interviewer to finish the interview on a good note. I will discuss some other points in detail in one of the next posts where I discuss WhatsApp system design in detail. 
+There are additional such details that you can discuss with your interviewer to finish the interview on a good note. I will discuss some other points in detail in one of the next posts where I discuss WhatsApp system design in detail.
 
 ## Summary
 
@@ -111,6 +110,9 @@ I will be writing about how to design below products. So keep checking once in a
 [System Design Tips](https://www.youtube.com/watch?v=CtmBGH8MkX4&t=326s) <br>
 [Watch this before your System design interview](https://www.youtube.com/watch?v=pWO07iEpjO4) <br>
 [Tips on How To Prepare](https://www.youtube.com/watch?v=Ns5WQfb8JGc)
+[Blog](https://codetiburon.com/create-chat-app-like-whatsapp/)
+[Blog](https://reqtest.com/requirements-blog/understanding-the-difference-between-functional-and-non-functional-requirements/)
+[Grokking System Design Interviews](https://www.educative.io/collection/5668639101419520/5649050225344512)
 
 ## Recheck them before posting
 - References section

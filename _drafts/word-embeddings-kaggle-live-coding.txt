@@ -1,0 +1,28 @@
+Kaggle Live Coding: Word Embeddings: Notes
+
+
+- yake + brown clustering pipeline
+Need to read up about this, also there in the Kaggle live coding list
+
+- notes on forums slack bot project
+This is a kaggle notebook that rachael is referring to
+
+- word2vec embeddings work really well when the corpus is big but it can be fine tuned to work for smaller ones as well
+https://www.kaggle.com/kfujikawa/word2vec-fine-tuning
+CBOW (continuous bag of words)
+ELMO
+BERT
+XLNET
+online learning for word2vec only there in gensim as of this video (probably)
+
+- (**params) is the easiest way to load hyperparams
+for ex:
+dict {
+  alpha=0.01,
+  jobs=-1,
+  max_depth=10
+}
+the we can call the model this way,
+model = ActualAlgoName(**params)
+
+- 
