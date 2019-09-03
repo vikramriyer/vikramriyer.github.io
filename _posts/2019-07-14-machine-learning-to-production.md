@@ -6,6 +6,7 @@ share: true
 related: true
 excerpt: Machine Learning to Production
 categories: machine_learning
+permalink: /machine_learning/machine-learning-to-production/
 ---
 
 # Problem Statement
