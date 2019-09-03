@@ -284,6 +284,7 @@ defaults:
       share: true
       related: true
       toc: true
+      permalink: /:categories/:title/
 
   # _pages
   - scope:
