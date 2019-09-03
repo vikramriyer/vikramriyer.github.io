@@ -1,5 +1,5 @@
 ---
-title: Deploying Machine Learning to production to identify complex BigData Infra workload issues
+title: Machine Learning to Production
 date: 2019-07-14 19:30:50
 comments: true
 share: true
