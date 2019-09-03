@@ -1,6 +1,6 @@
 ---
 title: "What I do"
-permalink: /about/
+permalink: /aboutme/
 ---
 
 - As a <strong>Software Developer</strong>, I have understanding of the <strong>BigData, Microservices</strong> architectures and have worked on designing and developing products for productions systems at the organisations I have worked with. I develop mostly using <strong>Python</strong> as my main language of preference, however, have used <strong>Ruby, Java, Javascript</strong> whenever found <strong>optimal and necessary</strong>. My main functional area has been as a <strong>Infrastructure Engineer</strong>.
@@ -8,7 +8,7 @@ permalink: /about/
 - I am also well versed in <strong>Deep Learning</strong> and have worked majorly on [projects](/projects) related to <strong>Computer Vision</strong>.
 
 ### What is my Goal? Where am I heading?
-To be part of a startup to which I can add a lot of value and build a product(s) of huge commercial value. 
+To be part of a startup to which I can add a lot of value and build a product(s) of huge commercial value.
 
 # Student Testimonials
 _See what my students and peers say about me._
