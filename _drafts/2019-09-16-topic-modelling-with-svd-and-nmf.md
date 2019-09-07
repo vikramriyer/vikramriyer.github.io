@@ -1,6 +1,6 @@
 ---
-title: What is NLP?
-date: 2019-08-15 19:30:50
+title: Topic modelling with SVD and NMF
+date: 2019-09-16 19:30:50
 categories: fastai_nlp
 comments: true
 share: true
@@ -10,8 +10,8 @@ In a series of posts, I will try to summarise and build upon my learnings from [
 [Racheal Thomas](https://www.fast.ai/about/#rachel) in 2019.
 
 Below is the index of the lessons in the course
-1. __[What is NLP?](#what-is-nlp?)__ (this post)
-2. [Topic Modelling with with SVD and NMF](https://vikramriyer.github.io/Topic-Modelling-and-SVD-and-NMF/)
+1. [What is NLP?](#what-is-nlp?)
+2. ___[Topic Modelling with with SVD and NMF](https://vikramriyer.github.io/Topic-Modelling-and-SVD-and-NMF/)___ (this post)
 3. [Topic Modelling and SVD revisited](https://vikramriyer.github.io/Topic-Modelling-and-SVD-revisited/)
 4. [Sentiment Classification with Naive Bayes](https://vikramriyer.github.io/Sentiment-Classification-with-Naive-Bayes/)
 5. [Sentiment Classification with Naive Bayes and Logistic Regression ctd..](https://vikramriyer.github.io/Sentiment-Classification-with-Naive-Bayes-and-Logistic-Regression-ctd../)
@@ -30,22 +30,11 @@ Below is the index of the lessons in the course
 18. <tba>
 19. <tba>
 
-## Tasks in NLP
+## What is Topic Modelling?
+You have a collection of text/documents.
+You can represent them in following ways:
+- Count of words as bag of words
+-  
 
-Includes a variety of below tasks:
-- part of speech tagging
-- named entity recognition
-- speech recognition
-- tts and stt
-- topic modelling
-- language modelling and translation
-- sentiment classification
-
-## Some libraries to fiddle with
-- nltk
-- spacy
-- gensim
-- fastai
-- sklearn
-- pytext
-- fasttext
+## Matrix Factorization
+Factorization is a technique by which we break the matrix in smaller ones. Now, the simple reason is that it is easy to work with smaller matrices or even numbers for that matter.  Additional benefit is that these smaller matrices have some unique properties and usefulness.
