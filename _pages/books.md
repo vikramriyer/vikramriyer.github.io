@@ -1,5 +1,5 @@
 ---
-title: The Books I have read and/or reading and/or to-read: Technical and Non-Technical
+title: My Books
 permalink: /books/
 ---
 
