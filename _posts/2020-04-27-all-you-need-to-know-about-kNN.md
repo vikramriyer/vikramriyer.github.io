@@ -1,6 +1,11 @@
 ---
-title: Short Post: All one needs to know about kNN algorithm
+title: All one needs to know about kNN algorithm
 date: 2020-04-27 19:30:50
+comments: true
+share: true
+related: true
+excerpt: kNN algorithm in machine learning
+categories: machine_learning
 ---
 
 ## Instance-based or Lazy learner
