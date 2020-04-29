@@ -4,14 +4,14 @@ permalink: /books/
 ---
 
 ## How to read books?
-There has a been a lot of discussion about how books improve ones understanding of the world and how it helps grow in the materialistic world. Without voicing my support going against the popular beliefs, I will add a few opinions of my own on this topic.
+There has a been a lot of discussion about how books improve ones understanding of the world and how it helps grow in the materialistic world. Without voicing my support or going against the popular beliefs, I will add a few opinions of my own on this topic.
 
-1. I started by reading random books about self-help or self-improvement and surprisingly psychology, never really had a thing for fiction and fantasy.
-2. When I quit my salaried job to spend some time understanding what I want to do for the next 5, 10 years, I decided I needed to read the technical books related to Data Science and some software engineering books out of curiosity and only as a reference, but not as a book to read cover-to-cover.
-3. After doing some research internship in Machine Learning and joining an early stage startup, I started reading economics, geo-politics, investing
-4. Now, I have recently found my interest for philosophy and rekindled my linking for psychology.
+1. I started reading random books about self-help or self-improvement and surprisingly psychology, never really had a thing for fiction and fantasy.
+2. When I quit my salaried job to spend some time understanding what I want to do for the next 5-10 years, I decided I needed to read the technical books related to Data Science and some Software Engineering books out of curiosity and only as a reference rather than reading cover-to-cover.
+3. After doing some research internship in Machine Learning and joining an early stage startup, I started reading about Economics, Geo-politics, Investing, Critical Thinking.
+4. Now, I have recently found my interest for Philosophy and rekindled my linking for Psychology.
 
-So, I suggest that instead of looking for the best books to read to become successful, just pick book on the topics that you are interested about and keep reading and either broadening or narrowing down based on where in the career you are placed. It is an inward decision rather than an outward one and do not worry how many books you have read. Of all the below books I have read, I might have probably re-read 5 books that I liked the most. And frankly, those are the books I gained max info from. Cheers and have a happy reading journey!
+So, the point of mentioning all the above statements is this, "Just keep reading what ever you like and worry about extracting every bit of information from everything you read". I suggest that instead of looking for the best books to read to become successful, just pick book on the topics that you are interested about and keep reading and either broadening or narrowing down based on where in the career you are placed. It is an inward decision rather than an outward one and do not worry how many books you have read or if you have read the complete book and understood everything. Of all the below books I have read, I might have probably re-read at most 5 books that I liked the most. And frankly, those are the books I gained max info from. Cheers and have a happy reading journey!
 
 ## Non-Technical
 
@@ -34,6 +34,8 @@ So, I suggest that instead of looking for the best books to read to become succe
 	[Cal Newport]
 - Flow: Living at the Peak of Your Abilities
 	[Mihaly Csikszentmihalyi Ph.D]
+- The Great Mental Models
+	[Farnam Street: Shane Parish]
 
 ### Management
 - The Personal MBA: Master the Art of Business
