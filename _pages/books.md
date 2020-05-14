@@ -26,16 +26,16 @@ So, the point of mentioning all the above statements is this, "Just keep reading
 	[Ray Dalio]
 
 ### Productivity, Critical Thinking, Learning
-- A Mind for Numbers
-	[Barbara Oakley]
+- The Great Mental Models
+	[Farnam Street: Shane Parish]
 - Atomic Habits
 	[James Clear]
+- A Mind for Numbers
+	[Barbara Oakley]
 - Deep Work
 	[Cal Newport]
 - Flow: Living at the Peak of Your Abilities
 	[Mihaly Csikszentmihalyi Ph.D]
-- The Great Mental Models
-	[Farnam Street: Shane Parish]
 
 ### Management
 - The Personal MBA: Master the Art of Business
@@ -49,25 +49,23 @@ So, the point of mentioning all the above statements is this, "Just keep reading
 - Sapiens
 	[Yuval Noah Harari]
 - Good Economics for Bad Times
-  [Abhijit Banerjee and Esther Duflo]
+        [Abhijit Banerjee and Esther Duflo]
+- The Origin of Species
+        [Charles Darwin]
 
 ### Science
+- Seven Brief lessons on Physics
+        [Carlo Rovelli]
+- A Brief History of Time
+        [Stephen Hawking]
 - For the Love of Physics
 	[Walter Lewin, Warren Goldstein]
-
-### Biographies
-- Elon Musk
-	[Ashlee Vance, Fred Sanders]
-- Shoe Dog: A Memoir by the Creator of NIKE
-	[Phil Knight]
-- Alibaba: The House that Jack Ma Built
-	[Duncan Clark]
 
 ### Miscellaneous
 - 1,000 Places to See Before You Die
 	[Schultz, Patricia]
-- The Talent Code: Greatness isn't born. It's grown
-	[Coyle, Daniel]
+- Superforecasting
+        [Philip Tetlock]
 
 ## Technical
 
