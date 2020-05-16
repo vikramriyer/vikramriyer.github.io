@@ -2,16 +2,23 @@
 title: "What I do"
 permalink: /aboutme/
 ---
+A Machine Learning Engineer well versed specifically in Supervised Learning. I love probability and am amazed by its uses across domains. I have a strong development background before pivoting into Data Science and hence can convert Data Science experiments to production ready systems.
 
-- As a <strong>Software Developer</strong>, I have understanding of the <strong>BigData, Microservices</strong> architectures and have worked on designing and developing products for productions systems at the organisations I have worked with. I develop mostly using <strong>Python</strong> as my main language of preference, however, have used <strong>Ruby, Java, Javascript</strong> whenever found <strong>optimal and necessary</strong>. My main functional area has been as a <strong>Infrastructure Engineer</strong>.
-- As a <strong>Data Science Mentor</strong> (see [testimonials](#student-testimonials) below), I teach students various topics relevant to <strong>Data Analysis, Machine Learning, Data Wrangling, Data Visualisation,</strong> etc.
-- I am also well versed in <strong>Deep Learning</strong> and have worked majorly on [projects](/projects) related to <strong>Computer Vision</strong>.
+I read books like my life depended on them. You can find a [list here](/books/). I also reread a lot of them.
 
-### What is my Goal? Where am I heading?
-To be part of a startup to which I can add a lot of value and build a product(s) of huge commercial value.
+I also like lifting heavy. :)
+- Deadlift 1RM = 190 kgs
+- Squat 1RM = 120 kgs
+- Benchpress 1RM = 90 kgs
 
-# Student Testimonials
-_See what my students and peers say about me._
+I meditate as well, not aiming to get some magical benefits, but to improve my focus. Let me know if you need help with this.
+
+## Connect with me
+- [Twitter](https://twitter.com/vikramriyer)
+- [LinkedIn](https://linkedin.com/in/vikramriyer)
+
+## Student Testimonials
+I have mentored students via Udacity for the Data Analyst, Machine Learning and Data Science Nano degrees.
 
 ![](/assets/images/student_reviews_udacity/1.png)
 ![](/assets/images/student_reviews_udacity/2.png)
