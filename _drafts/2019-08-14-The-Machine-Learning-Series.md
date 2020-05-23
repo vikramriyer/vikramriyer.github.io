@@ -18,14 +18,12 @@ In this series of posts, I will go through what productionizing data science mig
 - Deployment
 - Evaluation
 - Scheduling, Async
-- Dockerization for supporting a micro service like architecture
+- Dockerization to support a micro service like architecture
 - Scaling: The Real Deal
 
-I hope you find this series helpful. This post servers as the index for the posts to come. So, it might help to bookmark this page.
+> Tip: I hope you find this series helpful. This post serves as the index for the posts to come. So, it might help to bookmark this page.
 
 Cheers and Happy Coding! :)
 
-## References and extra Resources I referred to
+## Resources
 - [Dataquest](https://dataquest.io)
-- [AIEngineering Youtube Channel](https://www.youtube.com/channel/UCwBs8TLOogwyGd0GxHCp-Dw)
-- [Freecodecamp Twitter Scraping](https://www.youtube.com/watch?v=1gQ6uG5Ujiw)

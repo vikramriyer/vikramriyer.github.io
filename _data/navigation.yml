@@ -6,11 +6,5 @@ main:
     url: /aboutme/
   - title: "Books"
     url: /books/
-  # - title: "Error"
-  #   url: /404/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Writing"
+    url: /writing/
