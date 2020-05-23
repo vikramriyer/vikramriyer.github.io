@@ -9,11 +9,23 @@ There has a been a lot of discussion about how books improve ones understanding 
 1. I started reading random books about self-help or self-improvement and surprisingly psychology, never really had a thing for fiction and fantasy.
 2. When I quit my salaried job to spend some time understanding what I want to do for the next 5-10 years, I decided I needed to read the technical books related to Data Science and some Software Engineering books out of curiosity and only as a reference rather than reading cover-to-cover.
 3. After doing some research internship in Machine Learning and joining an early stage startup, I started reading about Economics, Geo-politics, Investing, Critical Thinking.
-4. Now, I have recently found my interest for Philosophy and rekindled my linking for Psychology.
+4. Now, I have recently found my interest for Philosophy and rekindled my liking for Psychology.
 
-So, the point of mentioning all the above statements is this, "Just keep reading what ever you like and worry about extracting every bit of information from everything you read". I suggest that instead of looking for the best books to read to become successful, just pick book on the topics that you are interested about and keep reading and either broadening or narrowing down based on where in the career you are placed. It is an inward decision rather than an outward one and do not worry how many books you have read or if you have read the complete book and understood everything. Of all the below books I have read, I might have probably re-read at most 5 books that I liked the most. And frankly, those are the books I gained max info from. Cheers and have a happy reading journey!
+So, the point of mentioning all the above statements is this, "Just keep reading what ever you like and worry less about extracting every bit of information from everything you read". I suggest that instead of looking for the best books to read to become successful, just pick book on the topics that you are interested in and keep reading and either broadening or narrowing down based on where in the career you are placed. It is an inward decision rather than an outward one and worry less about having read a complete book. Anyways one is not going to remember everything he/she reads. Of all the below books I have read, I might have probably re-read at most 5 books that I liked the most. And frankly, those are the books that I might re-read. Cheers and have a happy reading journey!
 
-## Non-Technical
+> Pro-tip: Read on kindle, and if you like the book, buy a physical copy to show-off.
+
+### Productivity, Critical Thinking, Learning
+- The Great Mental Models: Volume 1
+	[Farnam Street: Shane Parish]
+- Atomic Habits
+	[James Clear]
+- A Mind for Numbers
+	[Barbara Oakley]
+- Deep Work
+	[Cal Newport]
+- Superforecasting
+  [Philip Tetlock]
 
 ### Leadership, Business, Product
 - The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback
@@ -24,18 +36,6 @@ So, the point of mentioning all the above statements is this, "Just keep reading
 	[Jake Knapp, John Zeratsky, Braden Kowitz]
 - Principles
 	[Ray Dalio]
-
-### Productivity, Critical Thinking, Learning
-- The Great Mental Models
-	[Farnam Street: Shane Parish]
-- Atomic Habits
-	[James Clear]
-- A Mind for Numbers
-	[Barbara Oakley]
-- Deep Work
-	[Cal Newport]
-- Flow: Living at the Peak of Your Abilities
-	[Mihaly Csikszentmihalyi Ph.D]
 
 ### Management
 - The Personal MBA: Master the Art of Business
@@ -49,41 +49,34 @@ So, the point of mentioning all the above statements is this, "Just keep reading
 - Sapiens
 	[Yuval Noah Harari]
 - Good Economics for Bad Times
-        [Abhijit Banerjee and Esther Duflo]
+  [Abhijit Banerjee and Esther Duflo]
 - The Origin of Species
-        [Charles Darwin]
+  [Charles Darwin]
 
 ### Science
 - Seven Brief lessons on Physics
-        [Carlo Rovelli]
+  [Carlo Rovelli]
 - A Brief History of Time
-        [Stephen Hawking]
-- For the Love of Physics
-	[Walter Lewin, Warren Goldstein]
+  [Stephen Hawking]
 
 ### Miscellaneous
 - 1,000 Places to See Before You Die
-	[Schultz, Patricia]
-- Superforecasting
-        [Philip Tetlock]
 
-## Technical
-
-### Data Science
+### Tech
 - The Manga Guide to Statistics
-	[Takahashi, Shin]
+	[Shin Takahashi]
 - An Introduction to Statistical Learning: with Applications in R
-	[James, Gareth, Witten, Daniela, Hastie, Trevor, Tibshirani, Robert]
+	[Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani]
 - The Elements of Statistical Learning: Data Mining, Inference, and Prediction
-	[Hastie, Trevor, Tibshirani, Robert, Friedman, Jerome]
+	[Trevor Hastie, Robert Tibshirani, Jerome Friedman]
 - Hands-On Machine Learning with Scikit-Learn and Tensor Flow
-	[GÈron, AurÈlien]
-- Introduction to Machine Learning with Python: A Guide for Data Scientists A Guide for Data Scientists
-	[Muller, Andreas]
-- Deep Learning (Adaptive Computation and Machine Learning series)
+	[AurÈlien GÈron]
+- Introduction to Machine Learning with Python
+	[Andreas Muller]
+- Deep Learning
 	[Goodfellow, Ian, Bengio, Yoshua, Courville, Aaron, Bach, Francis]
 - Introduction to Information Retrieval
-	[Manning Christopher D., Raghavan Prabhakar, Schütze Hinrich]
+	[Christopher D. Manning, Prabhakar Raghavan, Hinrich Schütze]
 - Linear Algebra and Its Applications
 	[Gilbert Strang]
 - Introduction to Data Mining
@@ -92,10 +85,8 @@ So, the point of mentioning all the above statements is this, "Just keep reading
 	[Allen Downey]
 - Think Bayes
 	[Allen Downey]
-
-### Software Engineering and Architecture
 - Designing Data Intensive Applications
-	[Kleppmann, Martin]
+	[Martin Kleppmann]
 - Enterprise Integration Patterns
 	[Gregor Hohpe]
 - Computer Systems: A Programmer's Perspective
