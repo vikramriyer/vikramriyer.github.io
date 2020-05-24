@@ -128,14 +128,15 @@ So, we actually do not learn anything, just do the above matrix calculations and
 Awesome right? Yes, but not always!
 
 ### Some questions to think about
-1. If we have the closed form, why bother learning the weights?
+Q1. If we have the closed form, why bother learning the weights?
 
 If the dimensionality of inputs is huge and we have lot of data points, we might run into computational troubles. We first take a dot product of the inputs X and then calculate the inverse and some other computation. This is quite expensive.
 
-2. Can we do anything better to learn the parameters iteratively?
+Q2. Can we do anything better to learn the parameters iteratively?
 
 Enter Gradient Descent. We will look into Gradient Descent and how its variants can be used to learn the parameters iteratively.
 
 ### References
 [Stanford: Linear Regression and Gradient Descent](https://www.youtube.com/watch?v=4b4MUYve_U8&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=2)
+
 [Cornell: Linear Regression class notes](http://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote08.html)
