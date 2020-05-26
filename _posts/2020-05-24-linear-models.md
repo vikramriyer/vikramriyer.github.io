@@ -121,6 +121,12 @@ Now, only for Linear Regression, there is a closed form formula which can be dir
 
 $$ \theta =  {(\mathbf{X^TX})^{-1}}\mathbf{X}\mathbf{y} $$
 
+Check the code below, that finds parameter $$\theta$$. Here, for simplicity, I have used a single dimensional input.
+
+{% gist 25d5e618fa2c6d789ce91d83b8d2c260 %}
+
+So, even without any learning system, we can find that X and y are related to each other. The value of y is 10 times the value of X i.e. our parameter $$\theta$$ is 10.
+
 You can read about the derivation [here](http://www.cs.cmu.edu/~guestrin/Class/10701-S06/Handouts/recitations/recitation-linear-regression-01-26-2006.pdf).
 
 So, we actually do not learn anything, just do the above matrix calculations and we get the coefficients or weight matrix.
