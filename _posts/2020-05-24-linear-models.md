@@ -140,7 +140,7 @@ If the dimensionality of inputs is huge and we have lot of data points, we might
 
 Q2. Can we do anything better to learn the parameters iteratively?
 
-Enter Gradient Descent. We will look into Gradient Descent and how its variants can be used to learn the parameters iteratively.
+Enter Gradient Descent. We will look into Gradient Descent and how its variants can be used to learn the parameters iteratively in one of the following posts.
 
 ### References
 [Stanford: Linear Regression and Gradient Descent](https://www.youtube.com/watch?v=4b4MUYve_U8&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=2)
