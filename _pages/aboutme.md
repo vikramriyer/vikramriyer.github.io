@@ -28,6 +28,5 @@ I have mentored students via Udacity for the Data Analyst, Machine Learning and 
 ![](/assets/images/student_reviews_udacity/6.png)
 ![](/assets/images/student_reviews_udacity/7.png)
 ![](/assets/images/student_reviews_udacity/8.png)
-![](/assets/images/student_reviews_udacity/9.png)
 ![](/assets/images/student_reviews_udacity/10.png)
 ![](/assets/images/student_reviews_udacity/11.png)
