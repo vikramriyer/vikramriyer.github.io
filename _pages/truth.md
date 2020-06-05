@@ -24,4 +24,4 @@ People who run successful businesses will say,
 
 There are many such people who have the same things to say which is IMO the truth. It is ones expectation that disappoints him/her when they hear the truth.
 
-People expect trick and tips and short-cuts and magic formulae, etc which do not exist. 
+People expect trick and tips and short-cuts and magic formulae, etc which do not exist.
