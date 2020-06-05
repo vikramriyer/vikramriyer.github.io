@@ -15,7 +15,7 @@ So, the point of mentioning all the above statements is this, "Just keep reading
 
 > Pro-tip: Read on kindle, and if you like the book, buy a physical copy to show-off.
 
-### Productivity, Critical Thinking, Learning
+### Critical Thinking, Learning
 - The Great Mental Models: Volume 1
 	[Farnam Street: Shane Parish]
 - Atomic Habits
@@ -26,24 +26,22 @@ So, the point of mentioning all the above statements is this, "Just keep reading
 	[Cal Newport]
 - Superforecasting
   [Philip Tetlock]
+- Naked Statistics
+  [Charles Wheelan]
+- Principles
+	[Ray Dalio]
+- The Manga Guide to Statistics
+	[Shin Takahashi]
 
-### Leadership, Business, Product
+### Business, Product
 - The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback
 	[Dan Olsen, Walter Dixon]
 - Zero to One
 	[Peter Thiel]
 - Sprint
 	[Jake Knapp, John Zeratsky, Braden Kowitz]
-- Principles
-	[Ray Dalio]
 
-### Management
-- The Personal MBA: Master the Art of Business
-	[Josh Kaufman]
-- Management Challenges for the 21st Century
-	[Peter F. Drucker]
-
-### Economics, Geo Politics, History, Investing
+### Economics, Geo Politics, History
 - Prisoners of Geography
 	[Tim Marshall]
 - Sapiens
@@ -62,9 +60,9 @@ So, the point of mentioning all the above statements is this, "Just keep reading
 ### Miscellaneous
 - 1,000 Places to See Before You Die
 
-### Tech
-- The Manga Guide to Statistics
-	[Shin Takahashi]
+### Tech Reference books
+These are the kinds of books that one can read when they need some specific help with the topic; probably not to be read cover to cover, IMO.
+
 - An Introduction to Statistical Learning: with Applications in R
 	[Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani]
 - The Elements of Statistical Learning: Data Mining, Inference, and Prediction
