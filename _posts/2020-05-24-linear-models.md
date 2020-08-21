@@ -84,7 +84,7 @@ where n = total number of points
 
 However, we do a small trick here to penalize the huge errors using squared sum of errors, we can talk about that later in another post. The function changes to,
 
-mean squared error = $$1\over n (\sum y - f(X))^2 $$
+mean squared error = $${1\over n} * (\sum y - f(X))^2 $$
 
 This function is called the loss function and written in more complicated way is written as,
 
