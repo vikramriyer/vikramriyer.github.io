@@ -2,16 +2,18 @@
 title: "What I do"
 permalink: /aboutme/
 ---
-A Machine Learning Engineer well versed specifically in Supervised Learning. I love probability and am amazed by its uses across domains. I have a strong development background before pivoting into Data Science and hence can convert Data Science experiments to production ready systems.
+I like understanding business, product problems and try my best to find ways to solve them using tech and data science. By profession, I am a Machine Learning Engineer well versed specifically in Supervised Learning. I love probability and am always amazed by its uses across domains. It has improved my life in so many ways for good, made me calculate before speaking, made me humble. I had a strong development background before I pivoted into Data Science and hence can convert Data Science experiments and hypothesis to production ready systems. I have listed a few of my learning projects [here](/projects/). I worked on this when learning Data Science. I am secretly writing a book on doing Data Science the right way keeping all tech components into mind. If I do not release it by 2020 end, you can give me shout out at LinkedIn or Twitter, that will keep me accountable. :)
 
 I read books like my life depended on them. You can find a [list here](/books/). I also reread a lot of them.
 
-I also like lifting heavy. :)
+Working out and meditating help me maintain my sanity in personal life and insanity for working hard!
+
+Stats
 - Deadlift 1RM = 190 kgs
 - Squat 1RM = 120 kgs
 - Benchpress 1RM = 90 kgs
 
-I meditate as well, not aiming to get some magical benefits, but to improve my focus. Let me know if you need help with this.
+I just love pumping iron and pulling late nighters!
 
 ## Connect with me
 - [Twitter](https://twitter.com/vikramriyer)
