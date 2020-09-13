@@ -10,15 +10,15 @@ categories: machine_learning
 
 ### Reading outcomes
 - Understanding why Linear Regression is a supervised ML algorithm.
-- Noting the assumptions made by the algorithm
-- A problem where linear regression might be applicable
-- Deriving the loss function both by intuition and by probabilistic methods
-- Math for fun
+- Noting the assumptions made by the algorithm.
+- A problem where linear regression might be applicable.
+- Deriving the loss function both by intuition and by probabilistic methods.
+- Math for fun.
 
 ### Problem setup, Hypothesis
-Linear Regression is one of the supervised learning algorithm that models the relationship between labels y and inputs X.
+Linear Regression is one of the supervised learning algorithm that models the relationship between label y and inputs X.
 
-Let's consider high school math where we had equation of a line like,
+Let's consider high school math where we had equation of a line like so,
 
 $$\mathbf{y} = \mathbf{mx + b}$$
 
@@ -32,7 +32,7 @@ The above figure is a plot of the equation,
 
 $$\mathbf{y} = \mathbf{2x} + \mathbf{3} $$
 
-So, we can safely say that, the slope or m is 2 which means for each 1 unit change in x there will be 2 unit changes in y i.e $$\Delta y/\Delta x$$. And the y intercept or b = 3, so the line will always pass through y=3.
+So, we can safely say that, the slope or `m` is 2 which means for each unit change in `x` there will be `2` unit changes in y i.e $$\Delta y/\Delta x = 2$$. And the y intercept or b = 3, so the line will always pass through $$y = 3$$.
 
 We use a similar equation when creating a machine learning linear regression model. Before trying to use a model for a machine learning problem, it is essential to understand the assumptions made by the algorithm about the data.
 
@@ -40,14 +40,16 @@ We use a similar equation when creating a machine learning linear regression mod
 - Linear Regression assumes that the data points are continuous. If we look at the above above figure, we can see that the values are continuous and not discrete.
 - Linear Regression assumes that the labels are a function of the linear combination of the inputs and a normally distributed error term or gaussian noise. (Please ignore the normally distributed error term part if you are a beginner, it is not required to get an intuitive understanding of the workings)
 
-These assumptions are one of the most critical elements in the machine learning task. It actually helps us understand the data well.
+These assumptions are one of the most critical elements in the machine learning task. It actually helps us understand the data well. To put it in other words, before using a machine learning algorithm on a dataset, one must understand the data using some exploratory data analysis (EDA), only when you're convinced about an algorithm being useful on a particular dataset should you go ahead and use it.
+
+There is a fair argument that we can possibly throw all the algorithms at the data and figure out which one gives a better result. Try saying this in an interview and look where this goes. My personal opinion is to always keep constraints in mind when developing products and writing code and build on from there. In our case, data is the constraint and hence we should check the assumptions made by the algorithm, do our EDA and choose a suitable algorithm.
 
 ### Example
 Let's use a dataset that obeys the above assumptions.
 
 The housing dataset on Kaggle is a good example of when one can use linear regression to predict price of house given a lot of information about the house like total area, whether the house has a garage or not, total rooms, etc
 
-The below features, garage area and ground floor area seem to fit our expectation pretty well. The charts were drawn using Seaborn which is an API wrapper over the Matplotlib library.
+The features like garage area and ground floor area seem to fit our expectation pretty well. The charts were drawn using Seaborn which is an API wrapper over the Matplotlib library.
 
 ![](/assets/images/machine_learning/housing_total_area.png)
 
