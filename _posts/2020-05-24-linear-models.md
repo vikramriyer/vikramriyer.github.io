@@ -138,11 +138,13 @@ Awesome right? Yes, but not always!
 ### Some questions to think about
 Q1. If we have the closed form, why bother learning the weights?
 
-If the dimensionality of inputs is huge and we have lot of data points, we might run into computational troubles. We first take a dot product of the inputs X and then calculate the inverse and some other computation. This is quite expensive.
+If the dimensionality of inputs is huge and we have lot of data points, we might run into computational troubles. We first take a dot product of the inputs X and then calculate the inverse and some other computation. This is quite expensive. So, the closed form might not always be a best idea.
 
 Q2. Can we do anything better to learn the parameters iteratively?
 
 Enter Gradient Descent. We will look into Gradient Descent and how its variants can be used to learn the parameters iteratively in one of the following posts.
+
+Spoiler: What we end up doing is essentially learn the parameters of the model slowly using Gradient Descent rather than using the closed form to calculate them. 
 
 ### References
 [Stanford: Linear Regression and Gradient Descent](https://www.youtube.com/watch?v=4b4MUYve_U8&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=2)
