@@ -1,5 +1,5 @@
 ---
-title: Fastbook (FastAI) Chapter 1 Questionaire
+title: Fastbook (FastAI) Chapter 1 Questionnaire
 date: 2020-09-25 19:30:50
 comments: true
 share: true
@@ -204,3 +204,8 @@ __A.__ There are quite a few things that can go wrong.
 3. Over training or under training without considering the domain we are working on.
 4. Not trying simpler models first before jumping into Deep Learning and other more complex models.
 5. Not experimenting enough either due to the fear of failure or giving up early.
+
+## References
+[FastAI course](https://course.fast.ai/)
+[Fastbook](https://github.com/fastai/fastbook)
+[AiQuizzes](http://aiquizzes.com/)
