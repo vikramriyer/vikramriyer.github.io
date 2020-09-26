@@ -206,6 +206,7 @@ __A.__ There are quite a few things that can go wrong.
 5. Not experimenting enough either due to the fear of failure or giving up early.
 
 ## References
-[FastAI course](https://course.fast.ai/)
-[Fastbook](https://github.com/fastai/fastbook)
+[FastAI course](https://course.fast.ai/videos/?lesson=1)
+[Fastbook Free](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
+[Fastbook OReilly](https://www.oreilly.com/library/view/deep-learning-for/9781492045519/)
 [AiQuizzes](http://aiquizzes.com/)
