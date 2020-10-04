@@ -242,7 +242,7 @@ __A.__
 
 If tuning hyperparameters gives us smooth curves, it is ok to tune them further. What does a smooth curve mean? It means that there are no abrupt changes in the performance of the model due to changes in the hyperparameters, the performance is measured by any metric that suits the problem like accuracy.
 
-### Q15. How is y_range implemented in fastai? (See if you can implement it yourself and test it without peeking!)
+### Q15. How is *y_range* implemented in fastai? (See if you can implement it yourself and test it without peeking!)
 
 __A.__
 
