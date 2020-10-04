@@ -261,7 +261,7 @@ def sigmoid_range(x, hi, lo):
 
 ```
 
-Example usage: For point coordinates, the values are always in the range "-1 to 1". So, we can pass y_range=(-1, 1) when instantiating the learner which says that the predictions should be in the same range.
+Example usage: For point coordinates, the values are always in the range "-1 to 1". So, we can pass *y_range*=(-1, 1) when instantiating the learner which says that the predictions should be in the same range.
 
 ```python
 learn = some_learner(dataloader_obj,
