@@ -246,7 +246,7 @@ If tuning hyperparameters gives us smooth curves, it is ok to tune them further.
 
 __A.__
 
-_y_range_ is implemented by using the sigmoid function. The _y_range_ does the scaling on the sigmoid to squash the values between values provided as upper and lower bounds like shown below. Check the docstring below to know what each parameter is.
+*y_range* is implemented by using the sigmoid function. The *y_range* does the scaling on the sigmoid to squash the values between values provided as upper and lower bounds like shown below. Check the docstring below to know what each parameter is.
 
 ```python
 def sigmoid_range(x, hi, lo):
