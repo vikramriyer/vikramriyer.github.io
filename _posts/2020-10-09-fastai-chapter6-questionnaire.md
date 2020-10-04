@@ -242,11 +242,11 @@ __A.__
 
 If tuning hyperparameters gives us smooth curves, it is ok to tune them further. What does a smooth curve mean? It means that there are no abrupt changes in the performance of the model due to changes in the hyperparameters, the performance is measured by any metric that suits the problem like accuracy.
 
-### Q15. How is *y_range* implemented in fastai? (See if you can implement it yourself and test it without peeking!)
+### Q15. How is `y_range` implemented in fastai? (See if you can implement it yourself and test it without peeking!)
 
 __A.__
 
-*y_range* is implemented by using the sigmoid function. The *y_range* does the scaling on the sigmoid to squash the values between values provided as upper and lower bounds like shown below. Check the docstring below to know what each parameter is.
+`y_range` is implemented by using the sigmoid function. The `y_range` does the scaling on the sigmoid to squash the values between values provided as upper and lower bounds like shown below. Check the docstring below to know what each parameter is.
 
 ```python
 def sigmoid_range(x, hi, lo):
@@ -261,7 +261,7 @@ def sigmoid_range(x, hi, lo):
 
 ```
 
-Example usage: For point coordinates, the values are always in the range "-1 to 1". So, we can pass *y_range*=(-1, 1) when instantiating the learner which says that the predictions should be in the same range.
+Example usage: For point coordinates, the values are always in the range "-1 to 1". So, we can pass `y_range`=(-1, 1) when instantiating the learner which says that the predictions should be in the same range.
 
 ```python
 learn = some_learner(dataloader_obj,
