@@ -14,13 +14,13 @@ categories: machine_learning
 
 __A.__
 
-By adding another class which is "not a bear", we can now accommodate the condition where the user inputs anything other than a bear. The classifier earlier strictly predicted that the input image was one of the bear types. With the multi-label classifier, this need not be the case. The classifier is free to say that the image belongs to all the classes, or a few or none.
+By adding another class which is _not a bear_, we can now accommodate the condition where the user inputs anything other than a bear. The classifier earlier strictly predicted that the input image was one of the bear types. With the multi-label classifier, this need not be the case. The classifier is free to say that the image belongs to all the classes, or a few or none.
 
 ### Q2. How do we encode the dependent variable in a multi-label classification problem?
 
 __A.__
 
-We can use one-hot encoding.
+One-hot encoding.
 
 So, if there are a total of 3 labels in the dataset and a certain image is first 2 of those, we can treat the dependent variable as a vector of 0's and 1's where the value is 1 for the original labels and 0 otherwise.
 
@@ -38,7 +38,8 @@ __A.__
 Suppose we have the below data and each row is a person.
 
 ```python
->>> df = pd.DataFrame({'age': [10,20,30], 'weight': [35, 65, 85]})
+>>> df = pd.DataFrame({'age': [10, 20, 30],
+                       'weight': [35, 65, 85]})
 >>> df
     age  weight
 0   10      35
@@ -46,7 +47,7 @@ Suppose we have the below data and each row is a person.
 2   30      85
 ```
 
-So, if we want to find out the weight of 2nd person, we can write,
+So, if we want to find out the weight of 2nd (index starting at 0) person, we can write,
 
 ```python
 >>> df.iloc[2,1]
@@ -60,7 +61,8 @@ __A.__
 For the same example from above,
 
 ```python
->>> df = pd.DataFrame({'age': [10,20,30], 'weight': [35, 65, 85]})
+>>> df = pd.DataFrame({'age': [10, 20, 30],
+                       'weight': [35, 65, 85]})
 >>> df
     age  weight
 0   10      35
@@ -88,21 +90,21 @@ Ex: Let's take an example of house prices.
 
 |Index|#bedrooms|#bathrooms|price|
 |:---:|:---:|:---:|:---:|
-|1| 2| 2| 100|
-|2| 2| 1| 80|
-|3| 3| 2| 120|
-|4| 1| 1| 50|
+|0| 2| 2| 100|
+|1| 2| 1| 80|
+|2| 3| 2| 120|
+|3| 1| 1| 50|
 
-In the above example (think dataset), Index is just a serial number and can be ignored. #bedrooms and #bathrooms are independent variables, price is a dependent variable.
+In the above example (think dataset), `Index` is just a serial number and can be ignored. `#bedrooms` and `#bathrooms` are independent variables, price is a dependent variable.
 
-So the dataset object will have (dependent_vars, independent_vars).
+So the `Dataset` object will have _(dependent_vars, independent_vars)_.
 
-__DataLoader__: Advanced object that is an iterator which mini-batches of (dependent_vars, independent_vars).
+__DataLoader__: Advanced object that is an iterator on top of `Dataset` object that streams over mini-batches.
 
 Why mini-batches? <br>
 There are many reasons but we will go over the 2 important ones.
-1. Suppose your RAM can fit only 2 data points from the dataset. Then this mini-batch can have 2 data points at a time, train and move on to the next batch which has the remaining 2 data points and so on because its an iterator
-2. If we use Gradient Descent for training (which we will for sure), we can take in the entire dataset into memory; for reason "#1" and also for the reason that we want updates to our model after training on a smaller batch than after going through all the example. A more detailed explanation is not in the scope of this answer, but using mini-batches improves the quality of our model. (<update link here>)
+1. Suppose your RAM can fit only 2 data points from the entire dataset that has 4 data points. Then this mini-batch can have 2 data points at a time, train and move on to the next batch which has the remaining 2 data points.
+2. If we use Gradient Descent for training (which we will for sure), we might not want to take in the entire dataset into memory; for reason "#1" and also for the reason that we want updates to our model after training on a smaller batch than after going through all the examples. Hence, it is always a practice to use mini-batches. A more detailed explanation is not in the scope of this answer, but using mini-batches improves the performance of our model.
 
 So, DataLoader provides us this mini-batch which we can use for training.
 
@@ -112,13 +114,13 @@ __Note__: This question addresses `Dataset` and `DataLoader` not `Datasets` and 
 
 __A.__
 
-Once you have understood Dataset and DataLoader from question "#5", we can answer this question.
+Once you have understood `Dataset` and `DataLoader` from question "#5", we can answer this question.
 
-Datasets object is an iterator that has the training Dataset and validation Dataset.
+Datasets object is an iterator that has the _training_ Dataset and _validation_ Dataset.
 
 Well, what's the difference? <br>
 
-A: When performing Gradient Descent, we might want to train and update the parameters and loss over a batch rather than over the entire dataset for performance gains; `Datasets` objects provides this functionality. Think of a wrapper object around Dataset. One can write a for loop over `Datasets` object where each iteration is a batch of data points.
+A: We can have a `Dataset` object for training data and a separate `Dataset` object for validation data. A `Datasets` object is an iterator over both traind and validation Dataset.
 
 ### Q7. What does a DataLoaders object normally contain?
 
@@ -130,7 +132,7 @@ DataLoaders object is an iterator that has the training DataLoader and validatio
 
 Well what's the difference? <br>
 
-A: Refer to answer "#6" and replace `Datasets` with `DataLoaders`. DataLoaders is a wrapper around both _validation_ and _train_ `Datasets`.
+A: Similar to how `Datasets` works over both training and validation `Dataset` `DataLoaders` is a wrapper around both _validation_ and _train_ `DataLoader`.
 
 ### Q8. What does lambda do in Python?
 
@@ -161,7 +163,7 @@ df['sentiment'] = df['sentiment'].apply(lambda x: x.lower())
 
 __Legit argument__: So what if we create one extra method, would it hurt us?
 
-Absolutely not! It's just a choice, use it or leave it. However, IMO it's handy and aesthetic as a coder.
+Absolutely not! It's just a choice, use it or leave it. However, IMO it's handy and aesthetic to a developer.
 
 ### Q9. What are the methods to customize how the independent and dependent variables are created with the data block API?
 
@@ -203,7 +205,7 @@ It helps scale the values between 0 and 1 such that the largest value is closer 
 
 Now, this means, the softmax assumes that the labels are mutually exclusive i.e. it tries to push one value to be greater than the others. With, multi-label classification this is not the case. The labels might not be interdependent at all. In practice, for such problems it might not be a wise choice to squish the values to 1 because of the independence between the labels.
 
-__Final Note__: Using a softmax will not give errors. It might just be bad choice for the problem due to its assumption of dependence betweent the values.
+__Final Note__: Using a softmax will not give errors. It might just be bad choice for the problem due to its assumption of dependence between the values.
 
 
 ### Q11. Why is nll_loss not an appropriate loss function when using a one-hot-encoded target?
@@ -262,7 +264,10 @@ def sigmoid_range(x, hi, lo):
 Example usage: For point coordinates, the values are always in the range "-1 to 1". So, we can pass y_range=(-1, 1) when instantiating the learner which says that the predictions should be in the same range.
 
 ```python
-learn = some_learner(dataloader_obj, pretrained_model_obj, y_range=(-1,1))
+learn = some_learner(dataloader_obj,
+                     pretrained_model_obj,
+                     y_range=(-1,1))
+
 ```
 
 ### Q16. What is a regression problem? What loss function should you use for such a problem?
@@ -280,11 +285,13 @@ __A.__
 When passing the individual blocks to the `DataBlock` API, make sure to mention the last block to be a `PointBlock`.
 
 Example code,
+
 ```python
 blk = DataBlock(
     blocks=(ImageBlock, PointBlock),
     ...
 )
+
 ```
 
 ## References
