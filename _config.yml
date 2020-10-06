@@ -116,7 +116,6 @@ author:
   avatar           : "/assets/images/vikram_acceldata_photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Machine Learning Engineer who is excited about understanding business problems and solving them with tech"
   location         : "Bangalore, India"
-  email            : "vikram.iyer09@gmail.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
