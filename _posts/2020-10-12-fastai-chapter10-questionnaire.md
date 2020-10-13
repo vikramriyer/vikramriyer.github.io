@@ -199,6 +199,6 @@ __A.__ Better classification algorithms might immediately be used to create bett
 
 ## References
 - [FastAI course](https://course.fast.ai/videos/?lesson=8)
-- [Fastbook Free](https://github.com/fastai/fastbook/https://github.com/fastai/fastbook/blob/master/10_nlp.ipynb)
+- [Fastbook Free](https://github.com/fastai/fastbook/blob/master/10_nlp.ipynb)
 - [Fastbook O'Reilly](https://www.oreilly.com/library/view/deep-learning-for/9781492045519/)
 - [AiQuizzes](http://aiquizzes.com/)
