@@ -13,7 +13,7 @@ There has a been a lot of discussion about how books improve ones understanding 
 
 So, the point of mentioning all the above statements is this, "Just keep reading what ever you like and worry less about extracting every bit of information from everything you read". I suggest that instead of looking for the best books to read to become successful, just pick book on the topics that you are interested in and keep reading and either broadening or narrowing down based on where in the career you are placed. It is an inward decision rather than an outward one and worry less about having read a complete book. Anyways one is not going to remember everything he/she reads. Of all the below books I have read, I might have probably re-read at most 5 books that I liked the most. And frankly, those are the books that I might re-read. Cheers and have a happy reading journey!
 
-> Pro-tip: Read on kindle, and if you like the book, buy a physical copy to show-off.
+> Pro-tip: Read on kindle, it helps you highlight the parts you enjoyed and export them for later skimming through. If you like the book after reading, buy a physical copy to show-off. I like to see my library everyday. ;)
 
 ### Critical Thinking, Learning
 - The Great Mental Models: Volume 1
