@@ -1,5 +1,5 @@
 ---
-title: Debugging
+title: Debugging Lessons
 date: 2021-02-20 19:30:50
 comments: true
 share: true
