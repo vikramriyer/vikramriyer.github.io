@@ -16,7 +16,7 @@ So, the point of the above statements is this, "Just keep reading what ever you 
 > Pro-tip: Read on kindle, it helps you highlight the parts you enjoyed and export them if you'd like to skim through them. If you like the book after reading, buy a physical copy to show-off. I like to see my library everyday. ;)
 
 ### Critical Thinking, Learning
-- The Great Mental Models: Volume 1
+- The Great Mental Models: Volume 1, 2
 	[Farnam Street: Shane Parish]
 - Atomic Habits
 	[James Clear]
@@ -25,9 +25,9 @@ So, the point of the above statements is this, "Just keep reading what ever you 
 - Deep Work
 	[Cal Newport]
 - Superforecasting
-  [Philip Tetlock]
+  	[Philip Tetlock]
 - Naked Statistics
-  [Charles Wheelan]
+  	[Charles Wheelan]
 - Principles
 	[Ray Dalio]
 - The Manga Guide to Statistics
@@ -40,22 +40,28 @@ So, the point of the above statements is this, "Just keep reading what ever you 
 	[Peter Thiel]
 - Sprint
 	[Jake Knapp, John Zeratsky, Braden Kowitz]
+- Prediction Machines
+	[Ajay Agrawal, Joshua Gans, Avi Goldfarb]
 
 ### Economics, Geo Politics, History
 - Prisoners of Geography
 	[Tim Marshall]
 - Sapiens
 	[Yuval Noah Harari]
+- The Selfish Gene
+	[Richard Dawkins]
 - Good Economics for Bad Times
-  [Abhijit Banerjee and Esther Duflo]
+  	[Abhijit Banerjee and Esther Duflo]
 - The Origin of Species
-  [Charles Darwin]
+  	[Charles Darwin]
+- The Anarchy
+  	[William Dalrymple]
 
 ### Science
 - Seven Brief lessons on Physics
-  [Carlo Rovelli]
+  	[Carlo Rovelli]
 - A Brief History of Time
-  [Stephen Hawking]
+  	[Stephen Hawking]
 
-### Miscellaneous
+### Travel
 - 1,000 Places to See Before You Die
