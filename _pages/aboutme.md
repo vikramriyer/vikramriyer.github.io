@@ -2,11 +2,13 @@
 title: "What I do"
 permalink: /aboutme/
 ---
-I am a Machine Learning Engineer and I like building (understanding) businesses, products and try my best to find ways to solve them using tech and data science; have failed at a doing so quite a few times but gained a lot of experience listening to people. I have a strong development background which has (I believe) helped me pivot into Data Science and engineer solutions with ease. I have listed a few of my learning projects [here](/projects/). I worked on these when learning Data Science.
+I am a Senior Software Engineer well versed in the Data and ML space. I have a strong development background which has (I believe) helped me pivot into Data Science and engineer solutions with ease. I have listed a few of my learning projects [here](/projects/) however the list might not be updated.
 
+Currently, I work at a Data Observability company and enjoy building ML solutions for Data Quality problems. 
+ 
 Here is the [list](/books/) of books I am reading or already read. I also reread a lot of them.
 
-Working out and meditating help me maintain my sanity in personal life and insanity in working hard!
+Big time workout nerd for the body and meditator for the mind. I enjoy talking to people and discussing biases and fallacies. Hit me up if you are into these things as well. I'd love to talk. 
 
 ## Connect with me
 - [Twitter](https://twitter.com/vikramriyer)
