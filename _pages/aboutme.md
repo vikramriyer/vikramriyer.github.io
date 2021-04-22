@@ -6,7 +6,7 @@ I am a Senior Software Engineer well versed in the Data and ML space. I have a s
 
 Currently, I work at a Data Observability company and enjoy building ML solutions for Data Quality problems. 
  
-Here is the [list](/books/) of books I am reading or already read. I also reread a lot of them.
+Here is the [list](/books/) of books I am reading or have already read. I mostly end up rereading parts of the same books. I also buy more than I can read because my budget allows me to. :)
 
 Big time workout nerd for the body and meditator for the mind. I enjoy talking to people and discussing biases and fallacies. Hit me up if you are into these things as well. I'd love to talk. 
 
