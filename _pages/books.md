@@ -1,19 +1,41 @@
 ---
-title: My Favourite Books
+title: My Relationship with Books
 permalink: /books/
 ---
 
-## How to read books?
-There has a been a lot of discussion about how books improve ones understanding of the world and how it helps grow in the materialistic world. Without voicing my support or going against the popular beliefs, I will add a few opinions of my own on this topic.
+As a child, "Read books!", I was told, "if you want to succeed in life, earn money, be respected in the society". I, on the other hand, liked playing outdoors. School hours for me were from 8:30 AM in the morning to 3:20 PM in the evening. Once I reached home, I had to complete the home work that extended the study time. So, by the time I finished my home work, the day was over and so was my playtime. I am kidding, it was not as dreadful as it sounds because I never completed homework and went on to play nevertheless (To hell with studies!). Finally, on weekends, we had more home work. As a result, I hated it when I was asked to sit down, read and study. The only books I read were "Aesops Fables" and "The Adventures of Tow Sawyer". Just like that I finished school and then junior college. For a brief period, as I was nearing the end of my undergrad, I had an apocalyptic feeling about me not getting a job. That feeling faded too because I got one. So, in short, I never read books till mid 2016. Fast forward 2021, I have a mini-library at home, courtesy, my wife. She reads like crazy and reading is contagious I guess. :)
 
-1. I started reading random books about self-help or self-improvement and surprisingly psychology, never really had a thing for fiction and fantasy.
-2. When I quit my salaried job to spend some time understanding what I wanted to do for the next 5-10 years, I decided I needed to read the technical books related to Data Science and some Software Engineering books out of curiosity and books narrating founder/startup stories.
-3. After doing some research internship in Machine Learning and joining an early stage startup, I started reading about Economics, Geo-politics, Investing, Critical Thinking, Mental Models, etc.
-4. Now, I have recently found my interest for Philosophy and rekindled my liking for Psychology.
+So if you are wondering what changed for me and why I started reading, the answer is because I started having questions about many things around me and I did not get any satisfactory explanations. So, I read, and then I had more questions, and then, asked more questions. When I did not get any good explanation, I read more and this continued and still continues. I often hear that bookish knowledge can only take you so far and one needs to experience situations to be successful. Neither do I disagree nor do I agree with that. Because such statements are so general and wide that they are not measurable and I have learned to make peace with ignoring such statements. I would however argue that books do help ask great questions because of the data presented in them. Another unfair argument is we should not read too many books. My answer to that is another question, "Who decides how much is enough?" It's not like food that you start feeling satiated.
 
-So, the point of the above statements is this, "Just keep reading what ever you like and worry less about extracting every bit of information from everything you read". I suggest that instead of looking for the best books to read to become successful, just pick book on the topics that you are interested in and keep reading and either broadening or narrowing down based on where in the career you are placed. It is an inward decision rather than an outward one and worry less about having read a complete book. Anyways one is not going to remember everything they read. Of all the below books I have read, I might have probably re-read at most 5 books that I liked the most. And frankly, those are the books that I might read again. Cheers and have a happy reading journey!
+Reading books, has become a joyful experience for me. :) Most days, I start by reading a few pages and there is no pressure to complete a set amount of pages. I can also drop any book if it is not as interesting or if I do not fully get the author.
+
+Finally, I believe there are no set guidelines on which books to read. In fact, if you searching for guidelines on which books to read and where to get started, you are probably not doing it right. I started reading because I got curious and had no one to talk to about what mattered to me. If you remember from earlier, I hated books. Also, there is no shame in not being curious. Peace! Btw, I do still play outdoors, when I get the chance!
+
+I am sharing few of the books below that I am either reading or have already read. This is not a recommendation but just a list in no particular order of preference. If you have read any of them and want to discuss on the topics, I will invite you for lunch/dinner and we can go on talking about them till one of us calls it a day. Cheers and have a happy reading journey!
 
 > Pro-tip: Read on kindle, it helps you highlight the parts you enjoyed and export them if you'd like to skim through them. If you like the book after reading, buy a physical copy to show-off. I like to see my library everyday. ;)
+
+### Economics, Geo Politics, History
+- Prisoners of Geography
+	[Tim Marshall]
+- Sapiens
+	[Yuval Noah Harari]
+- The Selfish Gene (reading)
+	[Richard Dawkins]
+- Good Economics for Bad Times
+  [Abhijit Banerjee and Esther Duflo]
+- The Anarchy (reading)
+  [William Dalrymple]
+- God Delusion (reading)
+	[Richard Dawkins]
+
+### Science
+- The Code Breaker (reading)
+	[Walter Isaacson]
+- Seven Brief lessons on Physics
+  [Carlo Rovelli]
+- A Brief History of Time
+  [Stephen Hawking]
 
 ### Critical Thinking, Learning
 - The Great Mental Models: Volume 1, 2
@@ -25,9 +47,9 @@ So, the point of the above statements is this, "Just keep reading what ever you 
 - Deep Work
 	[Cal Newport]
 - Superforecasting
-  	[Philip Tetlock]
+  [Philip Tetlock]
 - Naked Statistics
-  	[Charles Wheelan]
+  [Charles Wheelan]
 - Principles
 	[Ray Dalio]
 - The Manga Guide to Statistics
@@ -40,28 +62,8 @@ So, the point of the above statements is this, "Just keep reading what ever you 
 	[Peter Thiel]
 - Sprint
 	[Jake Knapp, John Zeratsky, Braden Kowitz]
-- Prediction Machines
+- Prediction Machines (reading)
 	[Ajay Agrawal, Joshua Gans, Avi Goldfarb]
-
-### Economics, Geo Politics, History
-- Prisoners of Geography
-	[Tim Marshall]
-- Sapiens
-	[Yuval Noah Harari]
-- The Selfish Gene
-	[Richard Dawkins]
-- Good Economics for Bad Times
-  	[Abhijit Banerjee and Esther Duflo]
-- The Origin of Species
-  	[Charles Darwin]
-- The Anarchy
-  	[William Dalrymple]
-
-### Science
-- Seven Brief lessons on Physics
-  	[Carlo Rovelli]
-- A Brief History of Time
-  	[Stephen Hawking]
 
 ### Travel
 - 1,000 Places to See Before You Die

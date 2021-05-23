@@ -2,20 +2,17 @@
 title: "What I do"
 permalink: /aboutme/
 ---
-I am a Senior Software Engineer well versed in the Data and ML space. I have a strong development background which has (I believe) helped me pivot into Data Science and engineer solutions with ease. I have listed a few of my learning projects [here](/projects/) however the list might not be updated.
+I am a Senior Software Engineer well versed in the Data and ML space. I like writing Software, talking Psychology, building products, talking Tech, etc.
+Currently, I work at a Data Observability startup and enjoy building ML solutions for Data Quality, Observability problems.
 
-Currently, I work at a Data Observability company and enjoy building ML solutions for Data Quality problems. 
- 
-Here is the [list](/books/) of books I am reading or have already read. I mostly end up rereading parts of the same books. I also buy more than I can read because my budget allows me to. :)
+Here is the [list](/books/) of books I am reading or have already read. I mostly end up rereading parts of the same books. I also buy more than I can read because why not!
 
-Big time workout nerd for the body and meditator for the mind. I enjoy talking to people and discussing biases and fallacies. Hit me up if you are into these things as well. I'd love to talk. 
+Big time workout geek (body and mind). I enjoy talking to people and discussing biases, performance, tricking the mind, developing habits (mostly good), and fallacies. Hit me up if you are into these things as well. I'd love to talk.
 
-## Connect with me
-- [Twitter](https://twitter.com/vikramriyer)
-- [LinkedIn](https://linkedin.com/in/vikramriyer)
+If I were not a Software Engineer, I would have taken up Psychology or Neuroscience. Also, never say never.
 
 ## Student Testimonials
-I have mentored students via Udacity for the Data Analyst, Machine Learning and Data Science Nano degrees. Hit me up if you are early career in Tech and Data Science, I will help you avoid all the mistakes I and others I know did.
+I have mentored students via Udacity for the Data Analyst, Machine Learning and Data Science Nano degrees. Drop me a line on [LinkedIn](https://linkedin.com/in/vikramriyer) or [Twitter](https://twitter.com/vikramriyer) if you are early career in Tech and Data Science, I will help you avoid all the mistakes I and others I know did.
 
 ![](/assets/images/student_reviews_udacity/1.png)
 ![](/assets/images/student_reviews_udacity/2.png)
