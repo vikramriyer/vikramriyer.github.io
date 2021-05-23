@@ -1,5 +1,5 @@
 ---
-title: "What I do"
+title: "Who am I and What I do"
 permalink: /aboutme/
 ---
 I am a Senior Software Engineer well versed in the Data and ML space. I like writing Software, talking Psychology, building products, talking Tech, etc.

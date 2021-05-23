@@ -4,6 +4,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+Update: (2021)
+
+I have not been updating this page recently, so feel free to reach out to me on [LinkedIn](https://linkedin.com/in/vikramriyer) or [Twitter](https://twitter.com/vikramriyer) to know more about what I am doing and what are my interests in terms of work. 
+
 # Deep Learning
 [Teach A Car To Drive Using Deep Learning](https://github.com/vikramriyer/Teach_A_Car_To_Drive_Using_Deep_Learning) <br>
 _In this project, we will use a deep neural network to teach itself to drive by watching us drive. This tasks is also referred to as behavioural cloning._
@@ -34,4 +38,3 @@ _By using the data obtained from open street map, we will first clean it for som
 
 [A/B Testing for Ecommerce website](https://github.com/vikramriyer/Analyze-AB-test-Results/blob/master/README.md) <br>
 _E-Commerce Website A/B testing: Recommend which of two landing pages to keep based on A/B testing to determine user engagement._
-

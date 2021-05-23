@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Tech Blogs"
-    url: /
   - title: "AboutMe"
     url: /aboutme/
   - title: "Writing"
     url: /writing/
+  - title: "Projects"
+    url: /projects/
