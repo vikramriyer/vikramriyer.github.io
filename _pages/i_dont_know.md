@@ -1,6 +1,7 @@
 ---
 title: I don't know
 permalink: /i_dont_know/
+date: 2021-06-05 00:00:00
 ---
 
 I think, we humans, try to immediately conclude. I started with we humans, but am going to continue with my personal experience, otherwise I might end up grossly underestimating or overestimating.
@@ -37,6 +38,6 @@ __By trying to DISPROVE our assumption/conclusion__ instead of trying to prove w
 
 But, here comes yet another surprise, what if we can never understand what the pattern is? For example, it's not squares of prime numbers less than 15, what about less than 100, 1000, etc?
 
-This is where we should try to seek but be ok when we cannot find answers. Remember that scientists and other great people spent their lives trying to work on something they believed but did not conclude when they got the first chance. Obviously some got the solutions at a younger age but most had to dedicate their life to finding out. Unfortunately, we do not hear about he ones who did not succeed and celebrate only the ones who did succeed. It is fine to sometimes not know and say, "I don't know and keep searching. " It is probably bad, however, to prematurely conclude something. I have learned to be __not afraid of not knowing__. I encourage you too. 
+This is where we should try to seek but be ok when we cannot find answers. Remember that scientists and other great people spent their lives trying to work on something they believed but did not conclude when they got the first chance. Obviously some got the solutions at a younger age but most had to dedicate their life to finding out. Unfortunately, we do not hear about he ones who did not succeed and celebrate only the ones who did succeed. It is fine to sometimes not know and say, "I don't know and keep searching. " It is probably bad, however, to prematurely conclude something. I have learned to be __not afraid of not knowing__. I encourage you too.
 
 Peace!
