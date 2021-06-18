@@ -40,4 +40,4 @@ But, here comes yet another surprise, what if we can never understand what the p
 
 This is where we should try to seek but be ok when we cannot find answers. Remember that scientists and other great people spent their lives trying to work on something they believed but did not conclude when they got the first chance. Obviously some got the solutions at a younger age but most had to dedicate their life to finding out. Unfortunately, we do not hear about he ones who did not succeed and celebrate only the ones who did succeed. It is fine to sometimes not know and say, "I don't know and keep searching. " It is probably bad, however, to prematurely conclude something. I have learned to be __not afraid of not knowing__. I encourage you too.
 
-Peace!
+Peace! 
