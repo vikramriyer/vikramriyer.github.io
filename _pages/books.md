@@ -9,33 +9,39 @@ So if you are wondering what changed for me and why I started reading, the answe
 
 Reading books, has become a joyful experience for me. :) Most days, I start by reading a few pages and there is no pressure to complete a set amount of pages. I can also drop any book if it is not as interesting or if I do not fully get the author.
 
-Finally, I believe there are no set guidelines on which books to read. In fact, if you searching for guidelines on which books to read and where to get started, you are probably not doing it right. I started reading because I got curious and had no one to talk to about what mattered to me. If you remember from earlier, I hated books. Also, there is no shame in not being curious. Peace! Btw, I do still play outdoors, when I get the chance!
+Finally, I believe there are no set guidelines on which books to read. In fact, if you are searching for guidelines on which books to read and where to get started, you are probably not doing it right. I started reading because I got curious and had no one to talk to about what mattered to me. If you remember from earlier, I hated books. Also, there is no shame in not being curious. Peace! Btw, I do still play outdoors, when I get the chance!
 
-I am sharing few of the books below that I am either reading or have already read. This is not a recommendation but just a list in no particular order of preference. If you have read any of them and want to discuss on the topics, I will invite you for lunch/dinner and we can go on talking about them till one of us calls it a day. Cheers and have a happy reading journey!
+I am sharing few of the books below that I am either reading or have already read. This is not a recommendation but just a list in no particular order of preference. If you have read any of them and want to discuss on the topics, let's catch up and we can go on talking about them till one of us calls it a day. Cheers and have a happy reading journey!
 
 > Pro-tip: Read on kindle, it helps you highlight the parts you enjoyed and export them if you'd like to skim through them. If you like the book after reading, buy a physical copy to show-off. I like to see my library everyday. ;)
 
-### Economics, Geo Politics, History
+### Geo Politics, History
 - Prisoners of Geography
 	[Tim Marshall]
+- The Anarchy 
+  	[William Dalrymple]
+- The Rise and Fall of Dinosaurs
+	[Steve Brusatte]
+- Early Indians
+	[Tony Joseph]
+
+### Sciences (Anthro, Bio, Physics, etc)
+- Cosmos
+	[Carl Sagan]
+- Seven Brief lessons on Physics
+  	[Carlo Rovelli]
+- A Brief History of Time
+  	[Stephen Hawking]
 - Sapiens
 	[Yuval Noah Harari]
-- The Selfish Gene (reading)
+- The Selfish Gene 
 	[Richard Dawkins]
-- Good Economics for Bad Times
-  [Abhijit Banerjee and Esther Duflo]
-- The Anarchy (reading)
-  [William Dalrymple]
-- God Delusion (reading)
+- Lifespan
+	[David A Sinclair]
+- God Delusion 
 	[Richard Dawkins]
-
-### Science
-- The Code Breaker (reading)
-	[Walter Isaacson]
-- Seven Brief lessons on Physics
-  [Carlo Rovelli]
-- A Brief History of Time
-  [Stephen Hawking]
+- Behave
+	[Robert M. Sapolsky]
 
 ### Critical Thinking, Learning
 - The Great Mental Models: Volume 1, 2
@@ -47,9 +53,9 @@ I am sharing few of the books below that I am either reading or have already rea
 - Deep Work
 	[Cal Newport]
 - Superforecasting
-  [Philip Tetlock]
+  	[Philip Tetlock]
 - Naked Statistics
-  [Charles Wheelan]
+  	[Charles Wheelan]
 - Principles
 	[Ray Dalio]
 - The Manga Guide to Statistics
@@ -62,7 +68,7 @@ I am sharing few of the books below that I am either reading or have already rea
 	[Peter Thiel]
 - Sprint
 	[Jake Knapp, John Zeratsky, Braden Kowitz]
-- Prediction Machines (reading)
+- Prediction Machines 
 	[Ajay Agrawal, Joshua Gans, Avi Goldfarb]
 
 ### Travel
