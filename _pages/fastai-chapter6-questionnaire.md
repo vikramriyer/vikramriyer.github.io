@@ -1,10 +1,7 @@
 ---
 title: Fastbook (FastAI) Chapter 6 Questionnaire
+permalink: /fastai-chapter6-questionnaire/
 date: 2020-10-09 19:30:50
-comments: true
-share: true
-related: true
-excerpt: Computer Vision Problems
 categories: machine_learning
 ---
 

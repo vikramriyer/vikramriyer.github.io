@@ -1,10 +1,7 @@
 ---
 title: Fastbook (FastAI) Chapter 10 Questionnaire
+permalink: /fastai-chapter10-questionnaire/
 date: 2020-10-12 19:30:50
-comments: true
-share: true
-related: true
-excerpt: NLP Deep Dive
 categories: machine_learning
 ---
 

@@ -1,10 +1,7 @@
 ---
 title: Fastbook (FastAI) Chapter 1 Questionnaire
+permalink: /fastai-chapter1-questionnaire/
 date: 2020-09-25 19:30:50
-comments: true
-share: true
-related: true
-excerpt: Deep Learning Basics
 categories: machine_learning
 ---
 

@@ -1,10 +1,7 @@
 ---
 title: Fastbook (FastAI) Chapter 11 Questionnaire
+permalink: /fastai-chapter11-questionnaire/
 date: 2020-10-21 19:30:50
-comments: true
-share: true
-related: true
-excerpt: Midlevel Data API
 categories: machine_learning
 ---
 
