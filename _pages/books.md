@@ -11,60 +11,61 @@ Reading books, has become a joyful experience for me. :) Most days, I start by r
 
 Finally, I believe there are no set guidelines on which books to read. In fact, if you are searching for guidelines on which books to read and where to get started, you are probably not doing it right. I started reading because I got curious and had no one to talk to about what mattered to me. If you remember from earlier, I hated books. Also, there is no shame in not being curious. Peace! Btw, I do still play outdoors, when I get the chance!
 
-I am sharing few of the books below that I am either reading or have already read. This is not a recommendation but just a list in no particular order of preference. If you have read any of them and want to discuss on the topics, let's catch up and we can go on talking about them till one of us calls it a day. Cheers and have a happy reading journey!
+I am sharing few of the books below (keep adding and removing) that I am either reading or have already read. This is not a recommendation but just a list in no particular order of preference. If you have read any of them and want to discuss on the topics, let's catch up and we can go on talking about them till one of us calls it a day. Cheers and have a happy reading journey!
 
-> Pro-tip: Read on kindle, it helps you highlight the parts you enjoyed and export them if you'd like to skim through them. If you like the book after reading, buy a physical copy to show-off. I like to see my library everyday. ;)
+### Important
+An important point I'd like to make here. I have searched for the best books to read, followed people whom I've resonated with, followed where my curiosity led me and finally discovered these books. So, if you really want to engage your curiosity, __do not check the list__, go and find the ones you really want to read. A good way to start is by wanting to know about something. For example, "You want to know why we see Northern lights. " Go google, read about it and somehow, you will end up reading a book about The Planets by Brian Cox, Andrew Cohen. That's how I ended up here; and believe, this is a better way than searching for best books to read. ;)
 
 ### Geo Politics, History
 - Prisoners of Geography
 	[Tim Marshall]
-- The Anarchy 
+- The Anarchy (reading)
   	[William Dalrymple]
-- The Rise and Fall of Dinosaurs
+- The Rise and Fall of Dinosaurs (reread - lots of details that I tend to forget)
 	[Steve Brusatte]
 - Early Indians
 	[Tony Joseph]
 
-### Sciences (Anthro, Bio, Physics, etc)
-- Cosmos
+### Sciences (Anthro, Bio, Physics, Statistics, etc)
+- Cosmos (There is a disney+hotstar series as well which is engaging)
 	[Carl Sagan]
 - Seven Brief lessons on Physics
   	[Carlo Rovelli]
 - A Brief History of Time
   	[Stephen Hawking]
-- Sapiens
+- The Planets (reading)
+	[Brian Cox and Andrew Cohen]
+- Sapiens (reread)
 	[Yuval Noah Harari]
-- The Selfish Gene 
+- The Selfish Gene (reread)
 	[Richard Dawkins]
-- Lifespan
-	[David A Sinclair]
-- God Delusion 
+- God Delusion (reread)
 	[Richard Dawkins]
-- Behave
+- Behave (audiobook)
 	[Robert M. Sapolsky]
+- The Manga Guide to Statistics (quick reference)
+	[Shin Takahashi]
 
 ### Critical Thinking, Learning
 - The Great Mental Models: Volume 1, 2
 	[Farnam Street: Shane Parish]
-- Atomic Habits
+- Atomic Habits (reference book)
 	[James Clear]
 - A Mind for Numbers
 	[Barbara Oakley]
-- Deep Work
+- Deep Work (reference book)
 	[Cal Newport]
 - Superforecasting
   	[Philip Tetlock]
 - Naked Statistics
   	[Charles Wheelan]
-- Principles
-	[Ray Dalio]
-- The Manga Guide to Statistics
-	[Shin Takahashi]
+- Mistakes Were Made (But Not By Me)
+	[Carol Tavris and Elliot Aronson]
 
 ### Business, Product
 - The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback
 	[Dan Olsen, Walter Dixon]
-- Zero to One
+- Zero to One (reread)
 	[Peter Thiel]
 - Sprint
 	[Jake Knapp, John Zeratsky, Braden Kowitz]
