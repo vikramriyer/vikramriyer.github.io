@@ -3,7 +3,6 @@ title: Questions I am curious about
 permalink: /curious_questions/
 ---
 
-# Background
 This is just me trying to exercise my curious brain by actually searching various sources for answers. You might find these cool, interesting, boring, intuitive, and add another 100 adjectives. Also, if you find mistakes, please let me know, please! If by mistake people read this and get the wrong information, it will be sad! :(
 
 I will add a reference section to point to the people/resources who have worked on these things and have readymade answers for us, but I might miss on them sometimes (which is bad), so I am sorry about that. 
