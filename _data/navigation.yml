@@ -1,10 +1,12 @@
 # main links
 main:
   - title: "Home"
-    url: /
-  - title: "AboutMe"
     url: /aboutme/
+  - title: "Tech Posts"
+    url: /
   - title: "Writing"
     url: /writing/
   - title: "Projects"
     url: /projects/
+  - title: "Curious Q's"
+    url: /curious_questions/
