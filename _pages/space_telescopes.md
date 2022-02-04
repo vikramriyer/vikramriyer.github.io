@@ -11,6 +11,7 @@ Turns out, the main reason is that we need to get out of the earth's atmosphere 
 
 Now, what does light entering earth have to do with telescopes, you ask?
 Actually, our eyes work this way. Light is reflected from an object and enters our eye. You can read the anatomy of the eye if you need more details. :) Similarly, light from these celestial objects reaches our eyes via the telescope!
+
 ![](/assets/images/damn.gif)
 
 Now, let me confuse OR curios-ify you! Telescopes can also see things that have happened in the past. ;)
