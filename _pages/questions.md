@@ -13,6 +13,7 @@ Finally, the ones that have links are stuff I have notes on, others are mostly i
 ## Astronomy, Space, Nature
 - [Why launch a Telescope to Space? Why can't we see things from earth?](/space_telescopes/)
 - What all things does the atmosphere really do, for us?
+- [Can we swim in a vacuum?](/vacuum_swim/)
 
 ## Psychology, Brain Science, Philosophy
 - How do we remember certain things and not others?

@@ -2,16 +2,13 @@
 title: "Who am I and What I do"
 permalink: /aboutme/
 ---
-I am a Senior Software Engineer well versed in the Data and ML space. I like writing Software, talking Psychology, building products, talking Tech, etc.
-Currently, I work at a Data Observability startup and enjoy building ML solutions for Data Quality, Observability problems.
+Hiya! I am Vikram, a Technologist (read: Software Engineer) well versed in the Data and ML space. I can talk about Software, being kind, unbiased, thoughtful, lifting weights, etc.
 
-Here is the [list](/books/) of books I am reading or have already read. I mostly end up rereading parts of the same books. I also buy more than I can read because why not!
+Books are a huge part of my life and so, here is the [list](/books/) of books I am reading or have already read. 
 
-Big time workout geek (body and mind). I enjoy talking to people and discussing biases, performance, tricking the mind, developing habits (mostly good), and fallacies. Hit me up if you are into these things as well. I'd love to talk.
+I enjoy talking to people and discussing biases, performance, tricking the mind, developing habits (mostly good), and fallacies. 
 
-If I were not a Software Engineer, I would have taken up Psychology or Neuroscience. Also, never say never.
-
-## Student Testimonials
+## Mentoring: Student Testimonials
 I have mentored students via Udacity for the Data Analyst, Machine Learning and Data Science Nano degrees. Drop me a line on [LinkedIn](https://linkedin.com/in/vikramriyer) or [Twitter](https://twitter.com/vikramriyer) if you are early career in Tech and Data Science, I will help you avoid all the mistakes I and others I know did.
 
 ![](/assets/images/student_reviews_udacity/1.png)
