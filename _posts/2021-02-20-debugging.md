@@ -6,6 +6,7 @@ share: true
 related: true
 excerpt: Pillars of Debugging
 categories: development
+filter_by: tech
 ---
 
 ![](/assets/images/debugging.png)

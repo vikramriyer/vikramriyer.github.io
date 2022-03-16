@@ -6,6 +6,7 @@ share: true
 related: true
 excerpt: FastAI Questionaires - Ch 1, 6, 10, 11 (NLP)
 categories: machine_learning
+filter_by: ml
 ---
 
 ### Update: 28th Jan, 2022
