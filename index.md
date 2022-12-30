@@ -14,7 +14,7 @@ author_profile: true
   {% endfor %}
 </ul>
 
-<h2>Machine Learning, Data Science</h2>
+<h2>Machine Learning</h2>
 <ul>
   {% for post in site.posts %}
     {% if post.filter_by == 'ml' %}
