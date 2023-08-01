@@ -8,4 +8,4 @@ Books are a huge part of my life and so, here is the [list](/books/) of books I'
 
 Apart from technology; I enjoy talking to people about biases, tricking the mind, being kind and the list goes on. 
 
-In a past life, I was introduced to mentoring by Udacity and loved doing it and it was great while it lasted, see more here[/mentoring/]. 
+In a past life, I was introduced to mentoring by Udacity and loved doing it and it was great while it lasted, see more [here](/mentoring/). 

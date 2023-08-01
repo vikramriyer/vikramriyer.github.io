@@ -1,6 +1,6 @@
 ---
 title: "Mentoring"
-permalink: /aboutme/
+permalink: /mentoring/
 ---
 I have mentored students via Udacity for the Data Analyst, Machine Learning and Data Science Nano degrees. Drop me a line on [LinkedIn](https://linkedin.com/in/vikramriyer) or [Twitter](https://twitter.com/vikramriyer) if you are early career in Tech and Data Science, I will help you avoid all the mistakes I and others I know did.
 
