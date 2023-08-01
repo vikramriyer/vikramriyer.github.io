@@ -2,12 +2,13 @@
 title: Writing
 permalink: /writing/
 ---
-These are my learnings and opinions on topics I like to discuss. Reach out to me if you want to talk. I like talking to people and learning from them. These short essays have helped me shape my life in some way or the other. Finally, what I write about here, are my personal thoughts or philosophies, also science a lot of times.  
+Writing is a wonderful tool that I leverage to understand myself. Ona lighter note, I'd like to reach a point where I get paid to just share my stupid thoughts. 
 
+The short essays below help me get through life with sanity. These are my personal thoughts and opinions. 
 
 ## Index
 - [The 2-minute principle](/2mins_principle/)
-- [I don't know!](/i_dont_know/)
+- [I Don't Know!](/i_dont_know/)
 - [My Relationship with Books](/books/)
 - [Truth and Disappointment](/truth_and_disappointment/)
-- [Seeking different Perspectives](/perspectives/)
+- [Seeking Different Perspectives](/perspectives/)
