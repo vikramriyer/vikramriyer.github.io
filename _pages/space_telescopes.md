@@ -17,5 +17,5 @@ Actually, our eyes work this way. Light is reflected from an object and enters o
 Now, let me confuse OR curios-ify you! Telescopes can also see things that have happened in the past. ;)
 
 ### What triggers me next?
-[What all things does the atmosphere really do, for us?](/the_earths_atmosphere/)
-[How do telescopes see things that have happened billion years ago? Does it time travel?]()
+- [What all things does the atmosphere really do, for us?](/the_earths_atmosphere/)
+- How do telescopes see things that have happened billion years ago? Does it time travel?

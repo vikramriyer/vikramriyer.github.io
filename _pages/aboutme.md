@@ -6,7 +6,7 @@ Hiya! I am Vikram, a Technologist (read: Software Engineer) well versed in the D
 
 Books are a huge part of my life and so, here is the [list](/books/) of books I've read or am reading. 
 
-I also like writing and do share thoughts in [this space](/writing/). 
+I also like writing and do share thoughts in [this space](/writing/). Useful to me in my day-to-day life as a friend, techie, human, etc. 
 
 Apart from technology; I enjoy talking to people about biases, tricking the mind, being kind and the list goes on. 
 
