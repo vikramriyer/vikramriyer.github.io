@@ -37,7 +37,7 @@ Now that we have learned why debugging might be important, let's see the pillars
 - If you or anyone catches a bug/issue or abnormal behavior, it is important to first reproduce it to solve it. 
 - Every developer has an environment and issues can be because the environments might be different and so reproducing becomes quite difficult. 
 
-Rule of thumb: If something cannot be reproduced, it cannot be fixed. 
+> Rule of thumb: If something cannot be reproduced, it cannot be fixed. 
 
 #### Tooling
 Have the best tools at your disposal. 
