@@ -3,6 +3,17 @@ layout: home
 author_profile: true
 ---
 
+<h2>Rust Programming</h2>
+<ul>
+  {% for post in site.posts %}
+    {% if post.filter_by == 'rust' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 <h2>Software Development</h2>
 <ul>
   {% for post in site.posts %}
