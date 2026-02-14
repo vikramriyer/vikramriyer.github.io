@@ -12,3 +12,4 @@ The short essays below help me get through life with sanity. These are my person
 - [My Relationship with Books](/books/)
 - [Truth and Disappointment](/truth_and_disappointment/)
 - [Seeking Different Perspectives](/perspectives/)
+- [Stop meta-working](/meta_working)
