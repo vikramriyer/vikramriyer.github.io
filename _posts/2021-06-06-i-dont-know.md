@@ -4,7 +4,7 @@ date: 2021-06-06 19:30:50
 comments: true
 share: true
 related: true
-excerpt: How good it would be if people knew how to say I don't know
+excerpt: Why we rush to conclude and how saying "I don't know" leads to better thinking
 categories: writing
 filter_by: writing
 ---

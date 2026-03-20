@@ -4,7 +4,7 @@ date: 2023-01-07 19:30:50
 comments: true
 share: true
 related: true
-excerpt: Trick to avoid procrastination
+excerpt: A simple pause before the trigger to break the endless scroll
 categories: writing
 filter_by: writing
 ---

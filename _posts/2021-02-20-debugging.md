@@ -4,7 +4,7 @@ date: 2021-02-20 19:30:50
 comments: true
 share: true
 related: true
-excerpt: Pillars of Debugging
+excerpt: Reproducibility, tooling, and testing — the underrated pillars of debugging
 categories: development
 filter_by: tech
 ---

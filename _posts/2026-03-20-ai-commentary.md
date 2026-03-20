@@ -4,7 +4,7 @@ date: 2026-03-20 19:30:50
 comments: true
 share: true
 related: true
-excerpt: Navigating the AI world as a software engineer
+excerpt: A centrist take on AI hype, job safety, and why deliberate practice still matters
 categories: ai
 filter_by: ai
 ---

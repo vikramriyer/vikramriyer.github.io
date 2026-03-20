@@ -4,7 +4,7 @@ date: 2019-07-14 19:30:50
 comments: true
 share: true
 related: true
-excerpt: Machine Learning to Production
+excerpt: Forecasting YARN queue capacity with a multivariate ML pipeline
 categories: machine_learning
 filter_by: tech
 ---

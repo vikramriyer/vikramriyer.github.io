@@ -4,12 +4,36 @@ author_profile: true
 ---
 
 <style>
+  .post-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .post-list li {
+    margin-bottom: 1.5em;
+  }
+  .post-title-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .post-title-row a {
+    font-size: 1.1em;
+  }
+  .post-date {
+    font-size: 0.8em;
+    color: #999;
+  }
+  .post-excerpt {
+    margin-top: 4px;
+    font-size: 0.9em;
+    color: #666;
+  }
   .post-tag {
     display: inline-block;
-    font-size: 0.75em;
+    font-size: 0.7em;
     padding: 2px 8px;
     border-radius: 4px;
-    margin-left: 8px;
     color: #fff;
     vertical-align: middle;
   }
@@ -17,14 +41,23 @@ author_profile: true
   .post-tag-ml { background-color: #2980b9; }
   .post-tag-tech { background-color: #27ae60; }
   .post-tag-writing { background-color: #8e44ad; }
+  .post-tag-rust { background-color: #e67e22; }
 </style>
 
-<ul>
+<h2>Posts</h2>
+
+<ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {% if post.filter_by %}
-        <span class="post-tag post-tag-{{ post.filter_by }}">{{ post.filter_by }}</span>
+      <div class="post-title-row">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {% if post.filter_by %}
+          <span class="post-tag post-tag-{{ post.filter_by }}">{{ post.filter_by }}</span>
+        {% endif %}
+      </div>
+      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+      {% if post.excerpt %}
+        <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</div>
       {% endif %}
     </li>
   {% endfor %}
