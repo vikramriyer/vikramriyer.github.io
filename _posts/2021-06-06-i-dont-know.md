@@ -1,7 +1,12 @@
 ---
 title: I don't know
-permalink: /i_dont_know/
-date: 2021-06-05 00:00:00
+date: 2021-06-06 19:30:50
+comments: true
+share: true
+related: true
+excerpt: How good it would be if people knew how to say I don't know
+categories: writing
+filter_by: writing
 ---
 
 I think, we humans, conclude quickly. I started with "we" humans, however, am going to continue with my personal experience, otherwise I might end up grossly underestimating or overestimating.

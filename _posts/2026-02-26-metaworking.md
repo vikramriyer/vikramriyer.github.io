@@ -1,6 +1,12 @@
 ---
 title: Stop Meta-working
-permalink: /meta_working/
+date: 2026-02-26 19:30:50
+comments: true
+share: true
+related: true
+excerpt: Meta working as a curse to get shit done
+categories: writing
+filter_by: writing
 ---
 
 ### What is meta-working?

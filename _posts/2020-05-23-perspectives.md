@@ -1,6 +1,12 @@
 ---
 title: Perspectives
-permalink: /perspectives/
+date: 2020-05-23 19:30:50
+comments: true
+share: true
+related: true
+excerpt: Thinking deeply from different perspectives
+categories: writing
+filter_by: writing
 ---
 
 ### Short Story

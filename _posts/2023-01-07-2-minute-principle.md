@@ -1,6 +1,12 @@
 ---
 title: The 2-minute principle
-permalink: /2mins_principle/
+date: 2023-01-07 19:30:50
+comments: true
+share: true
+related: true
+excerpt: Trick to avoid procrastination
+categories: writing
+filter_by: writing
 ---
 
 Many know the story about America’s former president Abraham Lincoln’s famous method of being calm and composed at most times - if not, search “Never sent and never signed. ” The way he did this was simple. If he got infuriated by anyone's actions, he’d write a letter venting all his anger. Once done, he’d put it away in a drawer. And then he’d wake up the next day (or after a few hours - in short, give it some time) and reread the letter to decide if he wanted to send the letter or throw it away. It turns out, he’d not send most of them. And to me, this is not a surprise, we mostly say awful things and later regret saying the things we do.
