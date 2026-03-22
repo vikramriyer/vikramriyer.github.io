@@ -1,9 +1,6 @@
 ---
 title: I don't know
 date: 2021-06-06 19:30:50
-comments: true
-share: true
-related: true
 excerpt: Why we rush to conclude and how saying "I don't know" leads to better thinking
 categories: writing
 filter_by: writing

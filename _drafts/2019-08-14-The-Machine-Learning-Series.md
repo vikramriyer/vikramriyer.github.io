@@ -1,8 +1,8 @@
 ---
 title: The Data Science Lifecycle
 date: 2019-08-13 19:30:50
-comments: true
-share: true
+comments: false
+share: false
 ---
 
 # The Data Science Lifecycle

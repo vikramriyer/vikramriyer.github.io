@@ -1,9 +1,6 @@
 ---
 title: Perspectives
 date: 2020-05-23 19:30:50
-comments: true
-share: true
-related: true
 excerpt: Consume varied content, hold strong opinions, and be ready to be wrong
 categories: writing
 filter_by: writing

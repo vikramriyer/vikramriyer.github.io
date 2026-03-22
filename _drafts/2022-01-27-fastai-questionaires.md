@@ -1,8 +1,8 @@
 ---
 title: Index of FastAI Questionaires
 date: 2022-01-27 19:30:50
-comments: true
-share: true
+comments: false
+share: false
 related: true
 excerpt: FastAI Questionaires - Ch 1, 6, 10, 11 (NLP)
 categories: machine_learning

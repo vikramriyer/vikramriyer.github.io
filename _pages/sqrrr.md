@@ -1,9 +1,6 @@
 ---
 title: The forgotten SQRRR method for learning anything
 date: 2020-10-27 19:30:50
-comments: true
-share: true
-related: true
 excerpt: Learning topics with ease
 categories: learning
 ---

@@ -1,9 +1,6 @@
 ---
 title: Stop Meta-working
 date: 2026-02-26 19:30:50
-comments: true
-share: true
-related: true
 excerpt: The dopamine hit of organizing instead of doing
 categories: writing
 filter_by: writing

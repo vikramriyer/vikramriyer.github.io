@@ -1,9 +1,6 @@
 ---
 title: Thinking Better
 date: 2020-12-12 19:30:50
-comments: true
-share: true
-related: true
 excerpt: How to think better?
 categories: thinking
 ---

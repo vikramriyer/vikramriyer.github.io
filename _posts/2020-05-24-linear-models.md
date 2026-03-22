@@ -1,9 +1,6 @@
 ---
 title: All you need to know about Linear Regression
 date: 2020-05-24 19:30:50
-comments: true
-share: true
-related: true
 excerpt: Linear Regression
 categories: machine_learning
 filter_by: ml
